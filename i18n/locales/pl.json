@@ -17,7 +17,8 @@
     "rollAll": "Rzuć wszystkim",
     "reset": "Resetuj",
     "edit": "Edytuj",
-    "play": "Graj"
+    "play": "Graj",
+    "player": "Nazwa gracza (opcjonalnie)"
   },
   "element": {
     "enabled": "Włączone",
@@ -34,5 +35,29 @@
     "title": "Historia",
     "clear": "Wyczyść",
     "empty": "Brak rzutów"
+  },
+  "play": {
+    "critical": "Krytyk",
+    "fumble": "Pudło",
+    "winner": "Zwycięzca",
+    "success": "Sukces",
+    "failed": "Porażka",
+    "exhausted": "Nic nie zostało. Zresetuj, aby użyć ponownie.",
+    "rawResult": "Przed modyfikatorami",
+    "divisionByZero": "Dzielenie przez zero",
+    "setValue": "Ustaw wartość",
+    "apply": "Zastosuj",
+    "cancel": "Anuluj",
+    "timeUp": "Koniec czasu!",
+    "rotate": "Obróć do góry nogami",
+    "more": "+{n} więcej",
+    "remaining": "Zostało {n}"
+  },
+  "add": {
+    "wheel": "Koło",
+    "counter": "Licznik",
+    "timer": "Timer",
+    "stopwatch": "Stoper",
+    "option": "Opcja"
   }
 }

@@ -17,7 +17,8 @@
     "rollAll": "Roll all",
     "reset": "Reset",
     "edit": "Edit",
-    "play": "Play"
+    "play": "Play",
+    "player": "Player name (optional)"
   },
   "element": {
     "enabled": "Enabled",
@@ -34,5 +35,29 @@
     "title": "History",
     "clear": "Clear",
     "empty": "No rolls yet"
+  },
+  "play": {
+    "critical": "Critical",
+    "fumble": "Fumble",
+    "winner": "Winner",
+    "success": "Success",
+    "failed": "Failed",
+    "exhausted": "Nothing left. Reset to use it again.",
+    "rawResult": "Before modifiers",
+    "divisionByZero": "Division by zero",
+    "setValue": "Set value",
+    "apply": "Apply",
+    "cancel": "Cancel",
+    "timeUp": "Time's up!",
+    "rotate": "Turn upside down",
+    "more": "+{n} more",
+    "remaining": "{n} left"
+  },
+  "add": {
+    "wheel": "Wheel",
+    "counter": "Counter",
+    "timer": "Timer",
+    "stopwatch": "Stopwatch",
+    "option": "Option"
   }
 }

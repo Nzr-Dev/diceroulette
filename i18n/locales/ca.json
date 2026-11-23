@@ -17,7 +17,8 @@
     "rollAll": "Tirar tot",
     "reset": "Reiniciar",
     "edit": "Editar",
-    "play": "Jugar"
+    "play": "Jugar",
+    "player": "Nom del jugador (opcional)"
   },
   "element": {
     "enabled": "Habilitat",
@@ -34,5 +35,29 @@
     "title": "Historial",
     "clear": "Esborrar",
     "empty": "Encara no hi ha tirades"
+  },
+  "play": {
+    "critical": "Crític",
+    "fumble": "Pífia",
+    "winner": "Guanyador",
+    "success": "Èxit",
+    "failed": "Fallada",
+    "exhausted": "No queda res. Reinicia per tornar-ho a usar.",
+    "rawResult": "Abans de modificadors",
+    "divisionByZero": "Divisió per zero",
+    "setValue": "Fixar valor",
+    "apply": "Aplicar",
+    "cancel": "Cancel·lar",
+    "timeUp": "S'ha acabat el temps!",
+    "rotate": "Girar cap per avall",
+    "more": "+{n} més",
+    "remaining": "En queden {n}"
+  },
+  "add": {
+    "wheel": "Ruleta",
+    "counter": "Comptador",
+    "timer": "Temporitzador",
+    "stopwatch": "Cronòmetre",
+    "option": "Opció"
   }
 }

@@ -17,7 +17,8 @@
     "rollAll": "Tirar todo",
     "reset": "Reiniciar",
     "edit": "Editar",
-    "play": "Jugar"
+    "play": "Jugar",
+    "player": "Nombre del jugador (opcional)"
   },
   "element": {
     "enabled": "Habilitado",
@@ -34,5 +35,29 @@
     "title": "Historial",
     "clear": "Borrar",
     "empty": "Aún no hay tiradas"
+  },
+  "play": {
+    "critical": "Crítico",
+    "fumble": "Pifia",
+    "winner": "Ganador",
+    "success": "Éxito",
+    "failed": "Fallo",
+    "exhausted": "No queda nada. Reinicia para volver a usarlo.",
+    "rawResult": "Antes de modificadores",
+    "divisionByZero": "División entre cero",
+    "setValue": "Fijar valor",
+    "apply": "Aplicar",
+    "cancel": "Cancelar",
+    "timeUp": "¡Se acabó el tiempo!",
+    "rotate": "Girar boca abajo",
+    "more": "+{n} más",
+    "remaining": "Quedan {n}"
+  },
+  "add": {
+    "wheel": "Ruleta",
+    "counter": "Contador",
+    "timer": "Temporizador",
+    "stopwatch": "Cronómetro",
+    "option": "Opción"
   }
 }

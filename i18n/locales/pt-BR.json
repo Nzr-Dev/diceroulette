@@ -17,7 +17,8 @@
     "rollAll": "Rolar tudo",
     "reset": "Reiniciar",
     "edit": "Editar",
-    "play": "Jogar"
+    "play": "Jogar",
+    "player": "Nome do jogador (opcional)"
   },
   "element": {
     "enabled": "Ativado",
@@ -34,5 +35,29 @@
     "title": "Histórico",
     "clear": "Limpar",
     "empty": "Ainda não há rolagens"
+  },
+  "play": {
+    "critical": "Crítico",
+    "fumble": "Falha crítica",
+    "winner": "Vencedor",
+    "success": "Sucesso",
+    "failed": "Falha",
+    "exhausted": "Não sobrou nada. Reinicie para usar de novo.",
+    "rawResult": "Antes dos modificadores",
+    "divisionByZero": "Divisão por zero",
+    "setValue": "Definir valor",
+    "apply": "Aplicar",
+    "cancel": "Cancelar",
+    "timeUp": "O tempo acabou!",
+    "rotate": "Virar de cabeça para baixo",
+    "more": "+{n} mais",
+    "remaining": "Restam {n}"
+  },
+  "add": {
+    "wheel": "Roleta",
+    "counter": "Contador",
+    "timer": "Temporizador",
+    "stopwatch": "Cronômetro",
+    "option": "Opção"
   }
 }

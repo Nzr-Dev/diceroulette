@@ -17,7 +17,8 @@
     "rollAll": "Tout lancer",
     "reset": "Réinitialiser",
     "edit": "Modifier",
-    "play": "Jouer"
+    "play": "Jouer",
+    "player": "Nom du joueur (facultatif)"
   },
   "element": {
     "enabled": "Activé",
@@ -34,5 +35,29 @@
     "title": "Historique",
     "clear": "Effacer",
     "empty": "Aucun lancer pour le moment"
+  },
+  "play": {
+    "critical": "Critique",
+    "fumble": "Échec critique",
+    "winner": "Gagnant",
+    "success": "Réussite",
+    "failed": "Échec",
+    "exhausted": "Plus rien. Réinitialisez pour réutiliser.",
+    "rawResult": "Avant modificateurs",
+    "divisionByZero": "Division par zéro",
+    "setValue": "Définir la valeur",
+    "apply": "Appliquer",
+    "cancel": "Annuler",
+    "timeUp": "Temps écoulé !",
+    "rotate": "Retourner",
+    "more": "+{n} de plus",
+    "remaining": "{n} restant(s)"
+  },
+  "add": {
+    "wheel": "Roue",
+    "counter": "Compteur",
+    "timer": "Minuteur",
+    "stopwatch": "Chronomètre",
+    "option": "Option"
   }
 }

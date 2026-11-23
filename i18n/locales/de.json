@@ -17,7 +17,8 @@
     "rollAll": "Alle würfeln",
     "reset": "Zurücksetzen",
     "edit": "Bearbeiten",
-    "play": "Spielen"
+    "play": "Spielen",
+    "player": "Spielername (optional)"
   },
   "element": {
     "enabled": "Aktiviert",
@@ -34,5 +35,29 @@
     "title": "Verlauf",
     "clear": "Löschen",
     "empty": "Noch keine Würfe"
+  },
+  "play": {
+    "critical": "Kritisch",
+    "fumble": "Patzer",
+    "winner": "Gewinner",
+    "success": "Erfolg",
+    "failed": "Fehlschlag",
+    "exhausted": "Nichts mehr übrig. Zurücksetzen, um es wieder zu nutzen.",
+    "rawResult": "Vor Modifikatoren",
+    "divisionByZero": "Division durch null",
+    "setValue": "Wert festlegen",
+    "apply": "Anwenden",
+    "cancel": "Abbrechen",
+    "timeUp": "Zeit abgelaufen!",
+    "rotate": "Auf den Kopf drehen",
+    "more": "+{n} weitere",
+    "remaining": "{n} übrig"
+  },
+  "add": {
+    "wheel": "Glücksrad",
+    "counter": "Zähler",
+    "timer": "Timer",
+    "stopwatch": "Stoppuhr",
+    "option": "Option"
   }
 }
