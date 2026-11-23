@@ -1,6 +1,7 @@
 {
   "footer": {
-    "tagline": "Dados, roletas, contadores e temporizadores para os seus jogos"
+    "tagline": "Dados, roletas, contadores e temporizadores para os seus jogos",
+    "help": "Ajuda"
   },
   "header": {
     "language": "Idioma",
@@ -29,7 +30,8 @@
     "increase": "Aumentar",
     "pause": "Pausar",
     "start": "Iniciar",
-    "reset": "Reiniciar"
+    "reset": "Reiniciar",
+    "edit": "Editar"
   },
   "history": {
     "title": "Histórico",
@@ -51,7 +53,8 @@
     "timeUp": "O tempo acabou!",
     "rotate": "Virar ao contrário",
     "more": "+{n} mais",
-    "remaining": "Restam {n}"
+    "remaining": "Restam {n}",
+    "keepAwake": "Manter o ecrã ligado"
   },
   "add": {
     "wheel": "Roleta",
@@ -59,5 +62,190 @@
     "timer": "Temporizador",
     "stopwatch": "Cronómetro",
     "option": "Opção"
+  },
+  "editor": {
+    "title": "Editar elemento",
+    "name": "Nome",
+    "emoji": "Emoji",
+    "appearance": "Aparência",
+    "shape": "Forma",
+    "color": "Cor",
+    "borderColor": "Cor da borda",
+    "borderWidth": "Largura da borda",
+    "defaultColor": "Padrão",
+    "groups": "Grupos de dados",
+    "addGroup": "Adicionar grupo",
+    "removeGroup": "Remover grupo",
+    "count": "Dados",
+    "sides": "Faces",
+    "fill": "Preencher com números",
+    "faceLabel": "Texto",
+    "faceValue": "Valor",
+    "removeFace": "Remover face",
+    "addFace": "Adicionar face",
+    "showMore": "Mostrar mais {n}",
+    "operation": "Operação",
+    "format": "Formato do resultado",
+    "integer": "Inteiro",
+    "decimal": "Decimal",
+    "rounding": "Arredondamento",
+    "roundDown": "Arredondar para baixo",
+    "roundUp": "Arredondar para cima",
+    "decimals": "Casas decimais",
+    "modifiers": "Modificadores",
+    "addModifier": "Adicionar modificador",
+    "modifierLabel": "Nome (opcional)",
+    "removeModifier": "Remover modificador",
+    "highlights": "Destaques",
+    "winner": "Destacar o vencedor",
+    "winner_highest": "Maior",
+    "winner_lowest": "Menor",
+    "winner_success": "Atinge a dificuldade",
+    "critical": "Crítico",
+    "fumble": "Falha crítica",
+    "criticalAt": "A partir do valor (padrão: face mais alta)",
+    "fumbleAt": "Até o valor (padrão: face mais baixa)",
+    "difficulty": "Dificuldade (opcional)",
+    "exclusion": "Não repetir resultados",
+    "exclusionHelp": "As faces que já saíram não voltam a sair até reiniciares o elemento.",
+    "save": "Guardar",
+    "errors": "Corrige estes problemas",
+    "sectors": "Setores",
+    "addSector": "Adicionar setor",
+    "sectorLabel": "Opção",
+    "weight": "Peso",
+    "removeSector": "Remover setor",
+    "bulkAdd": "Adicionar vários (um por linha)",
+    "bulkPlaceholder": "Opção A\nOpção B\nOpção C",
+    "bulkButton": "Adicionar",
+    "noRepeat": "Não repetir setores",
+    "noRepeatHelp": "Um setor que já saiu é ignorado até reiniciares a roleta.",
+    "initial": "Valor inicial",
+    "min": "Mínimo",
+    "max": "Máximo",
+    "noLimit": "Sem limite",
+    "step": "Passo",
+    "allowNegative": "Permitir números negativos",
+    "allowDecimals": "Permitir decimais",
+    "alerts": "Alertas",
+    "addAlert": "Adicionar alerta",
+    "alertValue": "Quando chegar a",
+    "alertMessage": "Mensagem (opcional)",
+    "removeAlert": "Remover alerta",
+    "alertHelp": "Um alerta aparece enquanto o contador tiver exatamente esse valor, por exemplo 0.",
+    "timerMode": "Tipo",
+    "countdown": "Contagem decrescente",
+    "stopwatch": "Cronómetro",
+    "minutes": "Minutos",
+    "seconds": "Segundos",
+    "timerResetNote": "Mudar o tipo ou o tempo reinicia o temporizador."
+  },
+  "ops": {
+    "sum": "Soma",
+    "subtract": "Subtração",
+    "multiply": "Multiplicação",
+    "divide": "Divisão",
+    "max": "Maior",
+    "min": "Menor",
+    "average": "Média"
+  },
+  "shapes": {
+    "square": "Quadrado",
+    "circle": "Círculo",
+    "triangle": "Triângulo",
+    "diamond": "Losango",
+    "pentagon": "Pentágono",
+    "hexagon": "Hexágono",
+    "octagon": "Octógono"
+  },
+  "nav": {
+    "library": "Biblioteca"
+  },
+  "library": {
+    "new": "Nova mesa",
+    "newName": "Nova mesa",
+    "empty": "Ainda não há mesas. Cria uma, importa um ficheiro ou guarda a tua mesa rápida na página inicial.",
+    "import": "Importar ficheiro",
+    "importError": "Não foi possível importar: {error}",
+    "imported": "Mesa importada",
+    "tooBig": "O ficheiro é grande demais",
+    "open": "Abrir",
+    "rename": "Renomear",
+    "duplicate": "Duplicar",
+    "copyName": "{name} (cópia)",
+    "export": "Exportar ficheiro",
+    "share": "Copiar link de partilha",
+    "shareCopied": "Link copiado",
+    "shareTooLong": "Esta mesa é grande demais para um link. Exporta-a como ficheiro.",
+    "shareFailed": "Não foi possível copiar o link",
+    "delete": "Eliminar",
+    "deleteTitle": "Eliminar mesa",
+    "deleteConfirm": "Eliminar \"{name}\"? Poderás anular.",
+    "deleted": "Mesa eliminada",
+    "undo": "Anular",
+    "restore": "Restaurar",
+    "trash": "Reciclagem",
+    "trashHelp": "As mesas eliminadas são removidas de vez após 30 dias.",
+    "elements": "{n} elemento | {n} elementos",
+    "more": "Mais opções",
+    "back": "Voltar à biblioteca",
+    "saveToLibrary": "Guardar na biblioteca",
+    "saved": "Guardada na tua biblioteca",
+    "notFound": "Esta mesa não existe neste dispositivo."
+  },
+  "import": {
+    "title": "Importar mesa",
+    "confirm": "Adicionar \"{name}\" à tua biblioteca? Elementos: {n}",
+    "add": "Adicionar à biblioteca",
+    "invalid": "Este link não é válido ou a mesa está danificada."
+  },
+  "pwa": {
+    "install": "Instalar a aplicação",
+    "offlineReady": "Pronto: agora funciona sem conexão"
+  },
+  "help": {
+    "title": "Como funciona",
+    "intro": "Guia rápido. Tudo é opcional: a mesa rápida da página inicial já funciona do jeito que está.",
+    "tables": {
+      "title": "Mesas",
+      "text": "Uma mesa reúne os dados, roletas, contadores e temporizadores de um jogo. Usa o lápis para editar e o botão de dados para jogar. Guarda a mesa rápida na biblioteca para a conservares."
+    },
+    "dice": {
+      "title": "Dados",
+      "text": "Cria qualquer dado: faces com texto e valor, vários grupos (1d20 + 2d6), modificadores, destaques de crítico e falha crítica, e exclusão para sortear sem repetir."
+    },
+    "wheels": {
+      "title": "Roletas",
+      "text": "Os setores podem ter pesos e cores. Ativa a exclusão para tirar um setor depois que ele sair e reinicia quando quiser."
+    },
+    "counters": {
+      "title": "Contadores",
+      "text": "Os contadores sobem ou descem com passos, limites, decimais e alertas à tua escolha. Mantém um botão premido para repetir. Roda um contador 180° para o jogador da frente."
+    },
+    "timers": {
+      "title": "Temporizadores",
+      "text": "Contagem decrescente ou cronómetro. Ao acabar o tempo, aparece um aviso visual. Mantém o ecrã ligado a partir da barra da mesa."
+    },
+    "share": {
+      "title": "Partilhar e exportar",
+      "text": "Exporta uma mesa como ficheiro ou como link. Quem abrir recebe uma cópia, depois de confirmar."
+    },
+    "offline": {
+      "title": "Offline e telemóvel",
+      "text": "Abre o site uma vez com ligação e ele funcionará sem rede. Instala-o a partir do rodapé para o usares como uma aplicação."
+    },
+    "limits": {
+      "title": "Limites",
+      "text": "O máximo que podes usar. Mantêm a aplicação rápida e os teus dados seguros.",
+      "elements": "Elementos por mesa",
+      "dicePerGroup": "Dados por grupo",
+      "faces": "Faces por dado",
+      "sectors": "Setores por roleta",
+      "timer": "Temporizador mais longo",
+      "history": "Entradas de histórico guardadas",
+      "tableSize": "Tamanho máximo de uma mesa",
+      "accountSize": "Tamanho máximo por conta",
+      "hours": "{n} horas"
+    }
   }
 }

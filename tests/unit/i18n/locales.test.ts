@@ -47,9 +47,31 @@ describe('locale files', () => {
   })
 
   it('the translated languages are complete', () => {
-    for (const code of ['es', 'ca', 'ru', 'uk']) {
+    for (const code of ['es', 'ca', 'pt-BR', 'pt-PT', 'fr', 'de', 'it', 'pl', 'ru', 'uk', 'el']) {
       const have = new Set(flatten(read(code)))
       expect([...en].filter((k) => !have.has(k)), code).toEqual([])
+    }
+  })
+
+  it('every translation keeps the same {placeholders} as English', () => {
+    const flat = (code: string) => {
+      const out: Record<string, string> = {}
+      const walk = (o: Record<string, unknown>, pre: string) => {
+        for (const [k, v] of Object.entries(o)) {
+          if (typeof v === 'object' && v !== null) walk(v as Record<string, unknown>, `${pre}${k}.`)
+          else out[`${pre}${k}`] = String(v)
+        }
+      }
+      walk(read(code), '')
+      return out
+    }
+    const names = (text: string) => [...new Set(text.match(/\{\w+\}/g) ?? [])].sort()
+    const base = flat('en')
+    for (const code of ['es', 'ca', 'pt-BR', 'pt-PT', 'fr', 'de', 'it', 'pl', 'ru', 'uk', 'el']) {
+      const other = flat(code)
+      for (const [key, text] of Object.entries(base)) {
+        expect(names(other[key] ?? ''), `${code} ${key}`).toEqual(names(text))
+      }
     }
   })
 })

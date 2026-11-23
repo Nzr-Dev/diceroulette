@@ -1,6 +1,7 @@
 {
   "footer": {
-    "tagline": "Würfel, Glücksräder, Zähler und Timer für deine Spiele"
+    "tagline": "Würfel, Glücksräder, Zähler und Timer für deine Spiele",
+    "help": "Hilfe"
   },
   "header": {
     "language": "Sprache",
@@ -29,7 +30,8 @@
     "increase": "Erhöhen",
     "pause": "Pause",
     "start": "Start",
-    "reset": "Zurücksetzen"
+    "reset": "Zurücksetzen",
+    "edit": "Bearbeiten"
   },
   "history": {
     "title": "Verlauf",
@@ -51,7 +53,8 @@
     "timeUp": "Zeit abgelaufen!",
     "rotate": "Auf den Kopf drehen",
     "more": "+{n} weitere",
-    "remaining": "{n} übrig"
+    "remaining": "{n} übrig",
+    "keepAwake": "Bildschirm anlassen"
   },
   "add": {
     "wheel": "Glücksrad",
@@ -59,5 +62,190 @@
     "timer": "Timer",
     "stopwatch": "Stoppuhr",
     "option": "Option"
+  },
+  "editor": {
+    "title": "Element bearbeiten",
+    "name": "Name",
+    "emoji": "Emoji",
+    "appearance": "Aussehen",
+    "shape": "Form",
+    "color": "Farbe",
+    "borderColor": "Rahmenfarbe",
+    "borderWidth": "Rahmenbreite",
+    "defaultColor": "Standard",
+    "groups": "Würfelgruppen",
+    "addGroup": "Gruppe hinzufügen",
+    "removeGroup": "Gruppe entfernen",
+    "count": "Würfel",
+    "sides": "Seiten",
+    "fill": "Mit Zahlen füllen",
+    "faceLabel": "Text",
+    "faceValue": "Wert",
+    "removeFace": "Seite entfernen",
+    "addFace": "Seite hinzufügen",
+    "showMore": "{n} weitere anzeigen",
+    "operation": "Rechenart",
+    "format": "Ergebnisformat",
+    "integer": "Ganzzahl",
+    "decimal": "Dezimal",
+    "rounding": "Runden",
+    "roundDown": "Abrunden",
+    "roundUp": "Aufrunden",
+    "decimals": "Nachkommastellen",
+    "modifiers": "Modifikatoren",
+    "addModifier": "Modifikator hinzufügen",
+    "modifierLabel": "Name (optional)",
+    "removeModifier": "Modifikator entfernen",
+    "highlights": "Hervorhebungen",
+    "winner": "Gewinner hervorheben",
+    "winner_highest": "Höchster",
+    "winner_lowest": "Niedrigster",
+    "winner_success": "Erreicht die Schwierigkeit",
+    "critical": "Kritischer Treffer",
+    "fumble": "Patzer",
+    "criticalAt": "Ab Wert (Standard: höchste Seite)",
+    "fumbleAt": "Bis Wert (Standard: niedrigste Seite)",
+    "difficulty": "Schwierigkeit (optional)",
+    "exclusion": "Ergebnisse nicht wiederholen",
+    "exclusionHelp": "Bereits gefallene Seiten können erst wieder fallen, wenn du das Element zurücksetzt.",
+    "save": "Speichern",
+    "errors": "Bitte diese Probleme beheben",
+    "sectors": "Sektoren",
+    "addSector": "Sektor hinzufügen",
+    "sectorLabel": "Option",
+    "weight": "Gewicht",
+    "removeSector": "Sektor entfernen",
+    "bulkAdd": "Mehrere hinzufügen (eine pro Zeile)",
+    "bulkPlaceholder": "Option A\nOption B\nOption C",
+    "bulkButton": "Hinzufügen",
+    "noRepeat": "Sektoren nicht wiederholen",
+    "noRepeatHelp": "Ein bereits gefallener Sektor wird übersprungen, bis du das Rad zurücksetzt.",
+    "initial": "Startwert",
+    "min": "Minimum",
+    "max": "Maximum",
+    "noLimit": "Kein Limit",
+    "step": "Schrittweite",
+    "allowNegative": "Negative Zahlen erlauben",
+    "allowDecimals": "Dezimalzahlen erlauben",
+    "alerts": "Warnungen",
+    "addAlert": "Warnung hinzufügen",
+    "alertValue": "Wenn er erreicht",
+    "alertMessage": "Nachricht (optional)",
+    "removeAlert": "Warnung entfernen",
+    "alertHelp": "Eine Warnung erscheint, solange der Zähler genau diesen Wert hat, zum Beispiel 0.",
+    "timerMode": "Typ",
+    "countdown": "Countdown",
+    "stopwatch": "Stoppuhr",
+    "minutes": "Minuten",
+    "seconds": "Sekunden",
+    "timerResetNote": "Wenn du Typ oder Zeit änderst, startet der Timer neu."
+  },
+  "ops": {
+    "sum": "Summe",
+    "subtract": "Differenz",
+    "multiply": "Produkt",
+    "divide": "Quotient",
+    "max": "Höchster",
+    "min": "Niedrigster",
+    "average": "Durchschnitt"
+  },
+  "shapes": {
+    "square": "Quadrat",
+    "circle": "Kreis",
+    "triangle": "Dreieck",
+    "diamond": "Raute",
+    "pentagon": "Fünfeck",
+    "hexagon": "Sechseck",
+    "octagon": "Achteck"
+  },
+  "nav": {
+    "library": "Bibliothek"
+  },
+  "library": {
+    "new": "Neuer Tisch",
+    "newName": "Neuer Tisch",
+    "empty": "Noch keine Tische. Erstelle einen, importiere eine Datei oder speichere deinen Schnelltisch von der Startseite.",
+    "import": "Datei importieren",
+    "importError": "Import nicht möglich: {error}",
+    "imported": "Tisch importiert",
+    "tooBig": "Die Datei ist zu groß",
+    "open": "Öffnen",
+    "rename": "Umbenennen",
+    "duplicate": "Duplizieren",
+    "copyName": "{name} (Kopie)",
+    "export": "Datei exportieren",
+    "share": "Link zum Teilen kopieren",
+    "shareCopied": "Link kopiert",
+    "shareTooLong": "Dieser Tisch ist zu groß für einen Link. Exportiere ihn stattdessen als Datei.",
+    "shareFailed": "Der Link konnte nicht kopiert werden",
+    "delete": "Löschen",
+    "deleteTitle": "Tisch löschen",
+    "deleteConfirm": "„{name}“ löschen? Du kannst es rückgängig machen.",
+    "deleted": "Tisch gelöscht",
+    "undo": "Rückgängig",
+    "restore": "Wiederherstellen",
+    "trash": "Papierkorb",
+    "trashHelp": "Gelöschte Tische werden nach 30 Tagen endgültig entfernt.",
+    "elements": "{n} Element | {n} Elemente",
+    "more": "Weitere Optionen",
+    "back": "Zurück zur Bibliothek",
+    "saveToLibrary": "In der Bibliothek speichern",
+    "saved": "In deiner Bibliothek gespeichert",
+    "notFound": "Dieser Tisch existiert auf diesem Gerät nicht."
+  },
+  "import": {
+    "title": "Tisch importieren",
+    "confirm": "„{name}“ zu deiner Bibliothek hinzufügen? Elemente: {n}",
+    "add": "Zur Bibliothek hinzufügen",
+    "invalid": "Dieser Link ist ungültig oder der Tisch ist beschädigt."
+  },
+  "pwa": {
+    "install": "App installieren",
+    "offlineReady": "Bereit: Es funktioniert jetzt ohne Verbindung"
+  },
+  "help": {
+    "title": "So funktioniert es",
+    "intro": "Kurze Anleitung. Alles ist optional: Der Schnelltisch auf der Startseite funktioniert schon so, wie er ist.",
+    "tables": {
+      "title": "Tische",
+      "text": "Ein Tisch fasst die Würfel, Glücksräder, Zähler und Timer eines Spiels zusammen. Mit dem Stift bearbeitest du, mit dem Würfelknopf spielst du. Speichere den Schnelltisch in deiner Bibliothek, um ihn zu behalten."
+    },
+    "dice": {
+      "title": "Würfel",
+      "text": "Baue jeden beliebigen Würfel: Seiten mit Text und Wert, mehrere Gruppen (1d20 + 2d6), Modifikatoren, Hervorhebung von kritischen Treffern und Patzern und Ausschluss, um ohne Wiederholung zu ziehen."
+    },
+    "wheels": {
+      "title": "Glücksräder",
+      "text": "Sektoren können Gewichte und Farben haben. Aktiviere den Ausschluss, um einen Sektor nach dem Treffer zu entfernen, und setze ihn zurück, wann du willst."
+    },
+    "counters": {
+      "title": "Zähler",
+      "text": "Zähler zählen hoch oder runter, mit eigenen Schritten, Grenzen, Dezimalstellen und Warnungen. Halte eine Taste gedrückt, um zu wiederholen. Drehe einen Zähler um 180° für den Spieler gegenüber."
+    },
+    "timers": {
+      "title": "Timer",
+      "text": "Countdown oder Stoppuhr. Wenn die Zeit abgelaufen ist, erscheint ein visueller Hinweis. Lass den Bildschirm über die Tischleiste angeschaltet."
+    },
+    "share": {
+      "title": "Teilen und exportieren",
+      "text": "Exportiere einen Tisch als Datei oder als Link. Wer ihn öffnet, erhält nach Bestätigung eine Kopie."
+    },
+    "offline": {
+      "title": "Offline und Smartphone",
+      "text": "Öffne die Website einmal mit Verbindung, dann funktioniert sie offline. Installiere sie über die Fußzeile, um sie wie eine App zu nutzen."
+    },
+    "limits": {
+      "title": "Limits",
+      "text": "Das Maximum, das du nutzen kannst. Sie halten die App schnell und deine Daten sicher.",
+      "elements": "Elemente pro Tisch",
+      "dicePerGroup": "Würfel pro Gruppe",
+      "faces": "Seiten pro Würfel",
+      "sectors": "Sektoren pro Rad",
+      "timer": "Längster Timer",
+      "history": "Gespeicherte Verlaufseinträge",
+      "tableSize": "Maximale Größe eines Tisches",
+      "accountSize": "Maximale Größe pro Konto",
+      "hours": "{n} Stunden"
+    }
   }
 }

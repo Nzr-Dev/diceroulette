@@ -1,6 +1,7 @@
 {
   "footer": {
-    "tagline": "Kości, koła losowania, liczniki i timery do Twoich gier"
+    "tagline": "Kości, koła losowania, liczniki i timery do Twoich gier",
+    "help": "Pomoc"
   },
   "header": {
     "language": "Język",
@@ -29,7 +30,8 @@
     "increase": "Zwiększ",
     "pause": "Pauza",
     "start": "Start",
-    "reset": "Resetuj"
+    "reset": "Resetuj",
+    "edit": "Edytuj"
   },
   "history": {
     "title": "Historia",
@@ -51,7 +53,8 @@
     "timeUp": "Koniec czasu!",
     "rotate": "Obróć do góry nogami",
     "more": "+{n} więcej",
-    "remaining": "Zostało {n}"
+    "remaining": "Zostało {n}",
+    "keepAwake": "Nie wygaszaj ekranu"
   },
   "add": {
     "wheel": "Koło",
@@ -59,5 +62,190 @@
     "timer": "Timer",
     "stopwatch": "Stoper",
     "option": "Opcja"
+  },
+  "editor": {
+    "title": "Edytuj element",
+    "name": "Nazwa",
+    "emoji": "Emoji",
+    "appearance": "Wygląd",
+    "shape": "Kształt",
+    "color": "Kolor",
+    "borderColor": "Kolor obramowania",
+    "borderWidth": "Grubość obramowania",
+    "defaultColor": "Domyślny",
+    "groups": "Grupy kości",
+    "addGroup": "Dodaj grupę",
+    "removeGroup": "Usuń grupę",
+    "count": "Kości",
+    "sides": "Ścianki",
+    "fill": "Wypełnij liczbami",
+    "faceLabel": "Tekst",
+    "faceValue": "Wartość",
+    "removeFace": "Usuń ściankę",
+    "addFace": "Dodaj ściankę",
+    "showMore": "Pokaż jeszcze {n}",
+    "operation": "Działanie",
+    "format": "Format wyniku",
+    "integer": "Liczba całkowita",
+    "decimal": "Dziesiętny",
+    "rounding": "Zaokrąglanie",
+    "roundDown": "Zaokrąglaj w dół",
+    "roundUp": "Zaokrąglaj w górę",
+    "decimals": "Miejsca po przecinku",
+    "modifiers": "Modyfikatory",
+    "addModifier": "Dodaj modyfikator",
+    "modifierLabel": "Nazwa (opcjonalnie)",
+    "removeModifier": "Usuń modyfikator",
+    "highlights": "Wyróżnienia",
+    "winner": "Wyróżnij zwycięzcę",
+    "winner_highest": "Najwyższy",
+    "winner_lowest": "Najniższy",
+    "winner_success": "Osiąga poziom trudności",
+    "critical": "Trafienie krytyczne",
+    "fumble": "Pudło krytyczne",
+    "criticalAt": "Od wartości (domyślnie: najwyższa ścianka)",
+    "fumbleAt": "Do wartości (domyślnie: najniższa ścianka)",
+    "difficulty": "Poziom trudności (opcjonalnie)",
+    "exclusion": "Nie powtarzaj wyników",
+    "exclusionHelp": "Ścianki, które wypadły, nie wypadną ponownie, dopóki nie zresetujesz elementu.",
+    "save": "Zapisz",
+    "errors": "Popraw te problemy",
+    "sectors": "Sektory",
+    "addSector": "Dodaj sektor",
+    "sectorLabel": "Opcja",
+    "weight": "Waga",
+    "removeSector": "Usuń sektor",
+    "bulkAdd": "Dodaj kilka (po jednym w wierszu)",
+    "bulkPlaceholder": "Opcja A\nOpcja B\nOpcja C",
+    "bulkButton": "Dodaj",
+    "noRepeat": "Nie powtarzaj sektorów",
+    "noRepeatHelp": "Sektor, który wypadł, jest pomijany, dopóki nie zresetujesz koła.",
+    "initial": "Wartość początkowa",
+    "min": "Minimum",
+    "max": "Maksimum",
+    "noLimit": "Bez limitu",
+    "step": "Krok",
+    "allowNegative": "Zezwalaj na liczby ujemne",
+    "allowDecimals": "Zezwalaj na ułamki dziesiętne",
+    "alerts": "Alerty",
+    "addAlert": "Dodaj alert",
+    "alertValue": "Gdy osiągnie",
+    "alertMessage": "Komunikat (opcjonalnie)",
+    "removeAlert": "Usuń alert",
+    "alertHelp": "Alert pojawia się, dopóki licznik ma dokładnie tę wartość, na przykład 0.",
+    "timerMode": "Typ",
+    "countdown": "Odliczanie",
+    "stopwatch": "Stoper",
+    "minutes": "Minuty",
+    "seconds": "Sekundy",
+    "timerResetNote": "Zmiana typu lub czasu uruchamia timer od nowa."
+  },
+  "ops": {
+    "sum": "Suma",
+    "subtract": "Różnica",
+    "multiply": "Iloczyn",
+    "divide": "Iloraz",
+    "max": "Najwyższy",
+    "min": "Najniższy",
+    "average": "Średnia"
+  },
+  "shapes": {
+    "square": "Kwadrat",
+    "circle": "Koło",
+    "triangle": "Trójkąt",
+    "diamond": "Romb",
+    "pentagon": "Pięciokąt",
+    "hexagon": "Sześciokąt",
+    "octagon": "Ośmiokąt"
+  },
+  "nav": {
+    "library": "Biblioteka"
+  },
+  "library": {
+    "new": "Nowy stół",
+    "newName": "Nowy stół",
+    "empty": "Nie ma jeszcze stołów. Utwórz stół, zaimportuj plik albo zapisz szybki stół ze strony głównej.",
+    "import": "Importuj plik",
+    "importError": "Nie udało się zaimportować: {error}",
+    "imported": "Stół zaimportowany",
+    "tooBig": "Plik jest za duży",
+    "open": "Otwórz",
+    "rename": "Zmień nazwę",
+    "duplicate": "Duplikuj",
+    "copyName": "{name} (kopia)",
+    "export": "Eksportuj plik",
+    "share": "Kopiuj link do udostępnienia",
+    "shareCopied": "Link skopiowany",
+    "shareTooLong": "Ten stół jest za duży na link. Wyeksportuj go jako plik.",
+    "shareFailed": "Nie udało się skopiować linku",
+    "delete": "Usuń",
+    "deleteTitle": "Usuń stół",
+    "deleteConfirm": "Usunąć „{name}”? Będzie można to cofnąć.",
+    "deleted": "Stół usunięty",
+    "undo": "Cofnij",
+    "restore": "Przywróć",
+    "trash": "Kosz",
+    "trashHelp": "Usunięte stoły są trwale kasowane po 30 dniach.",
+    "elements": "Elementów: {n}",
+    "more": "Więcej opcji",
+    "back": "Wróć do biblioteki",
+    "saveToLibrary": "Zapisz w bibliotece",
+    "saved": "Zapisano w Twojej bibliotece",
+    "notFound": "Ten stół nie istnieje na tym urządzeniu."
+  },
+  "import": {
+    "title": "Importuj stół",
+    "confirm": "Dodać „{name}” do biblioteki? Elementów: {n}",
+    "add": "Dodaj do biblioteki",
+    "invalid": "Ten link jest nieprawidłowy lub stół jest uszkodzony."
+  },
+  "pwa": {
+    "install": "Zainstaluj aplikację",
+    "offlineReady": "Gotowe: teraz działa bez połączenia"
+  },
+  "help": {
+    "title": "Jak to działa",
+    "intro": "Krótki przewodnik. Wszystko jest opcjonalne: szybki stół na stronie głównej działa od razu.",
+    "tables": {
+      "title": "Stoły",
+      "text": "Stół grupuje kości, koła, liczniki i timery jednej gry. Ołówek służy do edycji, przycisk z kośćmi do gry. Zapisz szybki stół w bibliotece, aby go zachować."
+    },
+    "dice": {
+      "title": "Kości",
+      "text": "Stwórz dowolną kość: ścianki z tekstem i wartością, kilka grup (1d20 + 2d6), modyfikatory, wyróżnienia trafień i pudeł krytycznych oraz wykluczanie, by losować bez powtórzeń."
+    },
+    "wheels": {
+      "title": "Koła",
+      "text": "Sektory mogą mieć wagi i kolory. Włącz wykluczanie, aby usuwać sektor po jego wylosowaniu, i resetuj je, kiedy chcesz."
+    },
+    "counters": {
+      "title": "Liczniki",
+      "text": "Liczniki liczą w górę lub w dół z własnymi krokami, limitami, miejscami po przecinku i alertami. Przytrzymaj przycisk, aby powtarzać. Obróć licznik o 180° dla gracza naprzeciwko."
+    },
+    "timers": {
+      "title": "Timery",
+      "text": "Odliczanie lub stoper. Po upływie czasu pojawia się powiadomienie wizualne. Nie wygaszaj ekranu przyciskiem na pasku stołu."
+    },
+    "share": {
+      "title": "Udostępnianie i eksport",
+      "text": "Wyeksportuj stół jako plik lub link. Kto go otworzy, dostanie kopię po potwierdzeniu."
+    },
+    "offline": {
+      "title": "Offline i telefon",
+      "text": "Otwórz stronę raz z połączeniem, a będzie działać offline. Zainstaluj ją ze stopki, aby używać jej jak aplikacji."
+    },
+    "limits": {
+      "title": "Limity",
+      "text": "Maksimum, z którego możesz korzystać. Dzięki nim aplikacja jest szybka, a Twoje dane bezpieczne.",
+      "elements": "Elementy na stół",
+      "dicePerGroup": "Kości w grupie",
+      "faces": "Ścianki kości",
+      "sectors": "Sektory koła",
+      "timer": "Najdłuższy timer",
+      "history": "Przechowywane wpisy historii",
+      "tableSize": "Maksymalny rozmiar stołu",
+      "accountSize": "Maksymalny rozmiar na konto",
+      "hours": "{n} godz."
+    }
   }
 }

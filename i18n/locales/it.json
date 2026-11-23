@@ -1,6 +1,7 @@
 {
   "footer": {
-    "tagline": "Dadi, ruote, contatori e timer per i tuoi giochi"
+    "tagline": "Dadi, ruote, contatori e timer per i tuoi giochi",
+    "help": "Aiuto"
   },
   "header": {
     "language": "Lingua",
@@ -29,7 +30,8 @@
     "increase": "Aumenta",
     "pause": "Pausa",
     "start": "Avvia",
-    "reset": "Reimposta"
+    "reset": "Reimposta",
+    "edit": "Modifica"
   },
   "history": {
     "title": "Cronologia",
@@ -51,7 +53,8 @@
     "timeUp": "Tempo scaduto!",
     "rotate": "Capovolgi",
     "more": "+{n} altri",
-    "remaining": "Ne restano {n}"
+    "remaining": "Ne restano {n}",
+    "keepAwake": "Tieni lo schermo acceso"
   },
   "add": {
     "wheel": "Ruota",
@@ -59,5 +62,190 @@
     "timer": "Timer",
     "stopwatch": "Cronometro",
     "option": "Opzione"
+  },
+  "editor": {
+    "title": "Modifica elemento",
+    "name": "Nome",
+    "emoji": "Emoji",
+    "appearance": "Aspetto",
+    "shape": "Forma",
+    "color": "Colore",
+    "borderColor": "Colore del bordo",
+    "borderWidth": "Spessore del bordo",
+    "defaultColor": "Predefinito",
+    "groups": "Gruppi di dadi",
+    "addGroup": "Aggiungi gruppo",
+    "removeGroup": "Rimuovi gruppo",
+    "count": "Dadi",
+    "sides": "Facce",
+    "fill": "Riempi con numeri",
+    "faceLabel": "Testo",
+    "faceValue": "Valore",
+    "removeFace": "Rimuovi faccia",
+    "addFace": "Aggiungi faccia",
+    "showMore": "Mostra altri {n}",
+    "operation": "Operazione",
+    "format": "Formato del risultato",
+    "integer": "Intero",
+    "decimal": "Decimale",
+    "rounding": "Arrotondamento",
+    "roundDown": "Arrotonda per difetto",
+    "roundUp": "Arrotonda per eccesso",
+    "decimals": "Decimali",
+    "modifiers": "Modificatori",
+    "addModifier": "Aggiungi modificatore",
+    "modifierLabel": "Nome (facoltativo)",
+    "removeModifier": "Rimuovi modificatore",
+    "highlights": "Evidenziazioni",
+    "winner": "Evidenzia il vincitore",
+    "winner_highest": "Il più alto",
+    "winner_lowest": "Il più basso",
+    "winner_success": "Raggiunge la difficoltà",
+    "critical": "Critico",
+    "fumble": "Fallimento critico",
+    "criticalAt": "Dal valore (predefinito: faccia più alta)",
+    "fumbleAt": "Fino al valore (predefinito: faccia più bassa)",
+    "difficulty": "Difficoltà (facoltativa)",
+    "exclusion": "Non ripetere i risultati",
+    "exclusionHelp": "Le facce già uscite non possono uscire di nuovo finché non reimposti l'elemento.",
+    "save": "Salva",
+    "errors": "Correggi questi problemi",
+    "sectors": "Settori",
+    "addSector": "Aggiungi settore",
+    "sectorLabel": "Opzione",
+    "weight": "Peso",
+    "removeSector": "Rimuovi settore",
+    "bulkAdd": "Aggiungine diversi (uno per riga)",
+    "bulkPlaceholder": "Opzione A\nOpzione B\nOpzione C",
+    "bulkButton": "Aggiungi",
+    "noRepeat": "Non ripetere i settori",
+    "noRepeatHelp": "Un settore già uscito viene saltato finché non reimposti la ruota.",
+    "initial": "Valore iniziale",
+    "min": "Minimo",
+    "max": "Massimo",
+    "noLimit": "Nessun limite",
+    "step": "Passo",
+    "allowNegative": "Consenti numeri negativi",
+    "allowDecimals": "Consenti decimali",
+    "alerts": "Avvisi",
+    "addAlert": "Aggiungi avviso",
+    "alertValue": "Quando raggiunge",
+    "alertMessage": "Messaggio (facoltativo)",
+    "removeAlert": "Rimuovi avviso",
+    "alertHelp": "Un avviso compare finché il contatore ha esattamente quel valore, per esempio 0.",
+    "timerMode": "Tipo",
+    "countdown": "Conto alla rovescia",
+    "stopwatch": "Cronometro",
+    "minutes": "Minuti",
+    "seconds": "Secondi",
+    "timerResetNote": "Cambiare il tipo o il tempo riavvia il timer."
+  },
+  "ops": {
+    "sum": "Somma",
+    "subtract": "Sottrazione",
+    "multiply": "Moltiplicazione",
+    "divide": "Divisione",
+    "max": "Il più alto",
+    "min": "Il più basso",
+    "average": "Media"
+  },
+  "shapes": {
+    "square": "Quadrato",
+    "circle": "Cerchio",
+    "triangle": "Triangolo",
+    "diamond": "Rombo",
+    "pentagon": "Pentagono",
+    "hexagon": "Esagono",
+    "octagon": "Ottagono"
+  },
+  "nav": {
+    "library": "Libreria"
+  },
+  "library": {
+    "new": "Nuovo tavolo",
+    "newName": "Nuovo tavolo",
+    "empty": "Ancora nessun tavolo. Creane uno, importa un file o salva il tavolo rapido dalla pagina iniziale.",
+    "import": "Importa file",
+    "importError": "Impossibile importare: {error}",
+    "imported": "Tavolo importato",
+    "tooBig": "Il file è troppo grande",
+    "open": "Apri",
+    "rename": "Rinomina",
+    "duplicate": "Duplica",
+    "copyName": "{name} (copia)",
+    "export": "Esporta file",
+    "share": "Copia il link di condivisione",
+    "shareCopied": "Link copiato",
+    "shareTooLong": "Questo tavolo è troppo grande per un link. Esportalo invece come file.",
+    "shareFailed": "Impossibile copiare il link",
+    "delete": "Elimina",
+    "deleteTitle": "Elimina tavolo",
+    "deleteConfirm": "Eliminare «{name}»? Potrai annullare.",
+    "deleted": "Tavolo eliminato",
+    "undo": "Annulla",
+    "restore": "Ripristina",
+    "trash": "Cestino",
+    "trashHelp": "I tavoli eliminati vengono rimossi definitivamente dopo 30 giorni.",
+    "elements": "{n} elemento | {n} elementi",
+    "more": "Altre opzioni",
+    "back": "Torna alla libreria",
+    "saveToLibrary": "Salva nella libreria",
+    "saved": "Salvato nella tua libreria",
+    "notFound": "Questo tavolo non esiste su questo dispositivo."
+  },
+  "import": {
+    "title": "Importa tavolo",
+    "confirm": "Aggiungere «{name}» alla tua libreria? Elementi: {n}",
+    "add": "Aggiungi alla libreria",
+    "invalid": "Questo link non è valido o il tavolo è danneggiato."
+  },
+  "pwa": {
+    "install": "Installa l'app",
+    "offlineReady": "Pronto: ora funziona senza connessione"
+  },
+  "help": {
+    "title": "Come funziona",
+    "intro": "Guida breve. Tutto è facoltativo: il tavolo rapido della pagina iniziale funziona già così com'è.",
+    "tables": {
+      "title": "Tavoli",
+      "text": "Un tavolo raggruppa i dadi, le ruote, i contatori e i timer di un gioco. Usa la matita per modificare, il pulsante dei dadi per giocare. Salva il tavolo rapido nella libreria per conservarlo."
+    },
+    "dice": {
+      "title": "Dadi",
+      "text": "Crea qualsiasi dado: facce con testo e valore, più gruppi (1d20 + 2d6), modificatori, evidenziazione di critici e fallimenti critici, ed esclusione per estrarre senza ripetizioni."
+    },
+    "wheels": {
+      "title": "Ruote",
+      "text": "I settori possono avere pesi e colori. Attiva l'esclusione per rimuovere un settore dopo che è uscito, e reimpostala quando vuoi."
+    },
+    "counters": {
+      "title": "Contatori",
+      "text": "I contatori salgono o scendono con passi, limiti, decimali e avvisi personalizzati. Tieni premuto un pulsante per ripetere. Ruota un contatore di 180° per il giocatore di fronte."
+    },
+    "timers": {
+      "title": "Timer",
+      "text": "Conto alla rovescia o cronometro. Allo scadere del tempo compare un avviso visivo. Tieni lo schermo acceso dalla barra del tavolo."
+    },
+    "share": {
+      "title": "Condividi ed esporta",
+      "text": "Esporta un tavolo come file o come link. Chi lo apre ne riceve una copia, dopo la conferma."
+    },
+    "offline": {
+      "title": "Offline e telefono",
+      "text": "Apri il sito una volta con la connessione e funzionerà offline. Installalo dal piè di pagina per usarlo come un'app."
+    },
+    "limits": {
+      "title": "Limiti",
+      "text": "Il massimo che puoi usare. Mantengono l'app veloce e i tuoi dati al sicuro.",
+      "elements": "Elementi per tavolo",
+      "dicePerGroup": "Dadi per gruppo",
+      "faces": "Facce per dado",
+      "sectors": "Settori per ruota",
+      "timer": "Timer più lungo",
+      "history": "Voci di cronologia conservate",
+      "tableSize": "Dimensione massima di un tavolo",
+      "accountSize": "Dimensione massima per account",
+      "hours": "{n} ore"
+    }
   }
 }

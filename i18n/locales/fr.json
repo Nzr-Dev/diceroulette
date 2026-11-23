@@ -1,6 +1,7 @@
 {
   "footer": {
-    "tagline": "Dés, roues, compteurs et minuteurs pour vos jeux"
+    "tagline": "Dés, roues, compteurs et minuteurs pour vos jeux",
+    "help": "Aide"
   },
   "header": {
     "language": "Langue",
@@ -29,7 +30,8 @@
     "increase": "Augmenter",
     "pause": "Pause",
     "start": "Démarrer",
-    "reset": "Réinitialiser"
+    "reset": "Réinitialiser",
+    "edit": "Modifier"
   },
   "history": {
     "title": "Historique",
@@ -51,7 +53,8 @@
     "timeUp": "Temps écoulé !",
     "rotate": "Retourner",
     "more": "+{n} de plus",
-    "remaining": "{n} restant(s)"
+    "remaining": "{n} restant(s)",
+    "keepAwake": "Garder l'écran allumé"
   },
   "add": {
     "wheel": "Roue",
@@ -59,5 +62,190 @@
     "timer": "Minuteur",
     "stopwatch": "Chronomètre",
     "option": "Option"
+  },
+  "editor": {
+    "title": "Modifier l'élément",
+    "name": "Nom",
+    "emoji": "Emoji",
+    "appearance": "Apparence",
+    "shape": "Forme",
+    "color": "Couleur",
+    "borderColor": "Couleur de la bordure",
+    "borderWidth": "Épaisseur de la bordure",
+    "defaultColor": "Par défaut",
+    "groups": "Groupes de dés",
+    "addGroup": "Ajouter un groupe",
+    "removeGroup": "Supprimer le groupe",
+    "count": "Dés",
+    "sides": "Faces",
+    "fill": "Remplir avec des nombres",
+    "faceLabel": "Texte",
+    "faceValue": "Valeur",
+    "removeFace": "Supprimer la face",
+    "addFace": "Ajouter une face",
+    "showMore": "Afficher {n} de plus",
+    "operation": "Opération",
+    "format": "Format du résultat",
+    "integer": "Entier",
+    "decimal": "Décimal",
+    "rounding": "Arrondi",
+    "roundDown": "Arrondir à l'inférieur",
+    "roundUp": "Arrondir au supérieur",
+    "decimals": "Décimales",
+    "modifiers": "Modificateurs",
+    "addModifier": "Ajouter un modificateur",
+    "modifierLabel": "Nom (facultatif)",
+    "removeModifier": "Supprimer le modificateur",
+    "highlights": "Mises en évidence",
+    "winner": "Mettre en évidence le gagnant",
+    "winner_highest": "Le plus haut",
+    "winner_lowest": "Le plus bas",
+    "winner_success": "Atteint la difficulté",
+    "critical": "Critique",
+    "fumble": "Échec critique",
+    "criticalAt": "À partir de la valeur (par défaut : face la plus haute)",
+    "fumbleAt": "Jusqu'à la valeur (par défaut : face la plus basse)",
+    "difficulty": "Difficulté (facultatif)",
+    "exclusion": "Ne pas répéter les résultats",
+    "exclusionHelp": "Les faces déjà sorties ne peuvent plus sortir tant que vous ne réinitialisez pas l'élément.",
+    "save": "Enregistrer",
+    "errors": "Corrigez ces problèmes",
+    "sectors": "Secteurs",
+    "addSector": "Ajouter un secteur",
+    "sectorLabel": "Option",
+    "weight": "Poids",
+    "removeSector": "Supprimer le secteur",
+    "bulkAdd": "Ajouter plusieurs (un par ligne)",
+    "bulkPlaceholder": "Option A\nOption B\nOption C",
+    "bulkButton": "Ajouter",
+    "noRepeat": "Ne pas répéter les secteurs",
+    "noRepeatHelp": "Un secteur déjà sorti est ignoré tant que vous ne réinitialisez pas la roue.",
+    "initial": "Valeur initiale",
+    "min": "Minimum",
+    "max": "Maximum",
+    "noLimit": "Sans limite",
+    "step": "Pas",
+    "allowNegative": "Autoriser les nombres négatifs",
+    "allowDecimals": "Autoriser les décimales",
+    "alerts": "Alertes",
+    "addAlert": "Ajouter une alerte",
+    "alertValue": "Quand il atteint",
+    "alertMessage": "Message (facultatif)",
+    "removeAlert": "Supprimer l'alerte",
+    "alertHelp": "Une alerte s'affiche tant que le compteur vaut exactement cette valeur, par exemple 0.",
+    "timerMode": "Type",
+    "countdown": "Compte à rebours",
+    "stopwatch": "Chronomètre",
+    "minutes": "Minutes",
+    "seconds": "Secondes",
+    "timerResetNote": "Changer le type ou la durée redémarre le minuteur."
+  },
+  "ops": {
+    "sum": "Somme",
+    "subtract": "Soustraction",
+    "multiply": "Multiplication",
+    "divide": "Division",
+    "max": "Le plus haut",
+    "min": "Le plus bas",
+    "average": "Moyenne"
+  },
+  "shapes": {
+    "square": "Carré",
+    "circle": "Cercle",
+    "triangle": "Triangle",
+    "diamond": "Losange",
+    "pentagon": "Pentagone",
+    "hexagon": "Hexagone",
+    "octagon": "Octogone"
+  },
+  "nav": {
+    "library": "Bibliothèque"
+  },
+  "library": {
+    "new": "Nouvelle table",
+    "newName": "Nouvelle table",
+    "empty": "Aucune table pour l'instant. Créez-en une, importez un fichier ou enregistrez votre table rapide depuis l'accueil.",
+    "import": "Importer un fichier",
+    "importError": "Import impossible : {error}",
+    "imported": "Table importée",
+    "tooBig": "Le fichier est trop volumineux",
+    "open": "Ouvrir",
+    "rename": "Renommer",
+    "duplicate": "Dupliquer",
+    "copyName": "{name} (copie)",
+    "export": "Exporter le fichier",
+    "share": "Copier le lien de partage",
+    "shareCopied": "Lien copié",
+    "shareTooLong": "Cette table est trop volumineuse pour un lien. Exportez-la plutôt en fichier.",
+    "shareFailed": "Impossible de copier le lien",
+    "delete": "Supprimer",
+    "deleteTitle": "Supprimer la table",
+    "deleteConfirm": "Supprimer « {name} » ? Vous pourrez annuler.",
+    "deleted": "Table supprimée",
+    "undo": "Annuler",
+    "restore": "Restaurer",
+    "trash": "Corbeille",
+    "trashHelp": "Les tables supprimées sont effacées définitivement après 30 jours.",
+    "elements": "{n} élément | {n} éléments",
+    "more": "Plus d'options",
+    "back": "Retour à la bibliothèque",
+    "saveToLibrary": "Enregistrer dans la bibliothèque",
+    "saved": "Enregistrée dans votre bibliothèque",
+    "notFound": "Cette table n'existe pas sur cet appareil."
+  },
+  "import": {
+    "title": "Importer une table",
+    "confirm": "Ajouter « {name} » à votre bibliothèque ? Éléments : {n}",
+    "add": "Ajouter à la bibliothèque",
+    "invalid": "Ce lien n'est pas valide ou la table est endommagée."
+  },
+  "pwa": {
+    "install": "Installer l'application",
+    "offlineReady": "Prêt : cela fonctionne désormais sans connexion"
+  },
+  "help": {
+    "title": "Comment ça marche",
+    "intro": "Guide rapide. Tout est facultatif : la table rapide de la page d'accueil fonctionne déjà telle quelle.",
+    "tables": {
+      "title": "Tables",
+      "text": "Une table regroupe les dés, roues, compteurs et minuteurs d'un jeu. Utilisez le crayon pour modifier, le bouton des dés pour jouer. Enregistrez la table rapide dans votre bibliothèque pour la conserver."
+    },
+    "dice": {
+      "title": "Dés",
+      "text": "Créez n'importe quel dé : faces avec texte et valeur, plusieurs groupes (1d20 + 2d6), modificateurs, mise en évidence des critiques et échecs critiques, et exclusion pour tirer sans répétition."
+    },
+    "wheels": {
+      "title": "Roues",
+      "text": "Les secteurs peuvent avoir des poids et des couleurs. Activez l'exclusion pour retirer un secteur une fois sorti, et réinitialisez-la quand vous voulez."
+    },
+    "counters": {
+      "title": "Compteurs",
+      "text": "Les compteurs montent ou descendent avec des pas, limites, décimales et alertes personnalisés. Maintenez un bouton pour répéter. Retournez un compteur de 180° pour le joueur en face de vous."
+    },
+    "timers": {
+      "title": "Minuteurs",
+      "text": "Compte à rebours ou chronomètre. Un avertissement visuel apparaît à la fin du temps. Gardez l'écran allumé depuis la barre de la table."
+    },
+    "share": {
+      "title": "Partager et exporter",
+      "text": "Exportez une table en fichier ou en lien. Celui qui l'ouvre en reçoit une copie, après confirmation."
+    },
+    "offline": {
+      "title": "Hors ligne et mobile",
+      "text": "Ouvrez le site une fois avec une connexion et il fonctionnera hors ligne. Installez-le depuis le pied de page pour l'utiliser comme une application."
+    },
+    "limits": {
+      "title": "Limites",
+      "text": "Le maximum que vous pouvez utiliser. Elles gardent l'application rapide et vos données en sécurité.",
+      "elements": "Éléments par table",
+      "dicePerGroup": "Dés par groupe",
+      "faces": "Faces par dé",
+      "sectors": "Secteurs par roue",
+      "timer": "Minuteur le plus long",
+      "history": "Entrées d'historique conservées",
+      "tableSize": "Taille maximale d'une table",
+      "accountSize": "Taille maximale par compte",
+      "hours": "{n} heures"
+    }
   }
 }
