@@ -12,6 +12,9 @@ export const sectorSchema = z.object({
   color: colorSchema.optional(),
 })
 
+/** Result of a spin, kept as text so editing the wheel later does not change it. */
+export const wheelResultSchema = z.object({ at: isoDateSchema, sectorId: idSchema, label: labelSchema })
+
 /** Fields specific to the wheel type (the common ones are in element.ts). */
 export const wheelFields = {
   sectors: z.array(sectorSchema).min(1).max(LIMITS.maxSectorsPerWheel),
@@ -19,7 +22,7 @@ export const wheelFields = {
   noRepeat: z.boolean().default(false),
   usedSectorIds: z.array(idSchema).max(LIMITS.maxSectorsPerWheel).default([]),
   borderColor: colorSchema.optional(),
-  lastResult: z.object({ at: isoDateSchema, sectorId: idSchema, label: labelSchema }).optional(),
+  lastResult: wheelResultSchema.optional(),
 }
 
 export type Sector = z.infer<typeof sectorSchema>
