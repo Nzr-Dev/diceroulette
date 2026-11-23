@@ -90,6 +90,7 @@ async function rollEverything() {
       <ElementCard v-for="element in store.table.elements" :key="element.id" :element="element" />
 
       <HistoryBox />
+      <EditorElementEditor />
     </div>
     <template #fallback>
       <div class="space-y-3">
