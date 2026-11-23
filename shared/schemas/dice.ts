@@ -66,21 +66,29 @@ export const exclusionSchema = z.object({
   usedFaceIds: z.array(idSchema).max(MAX_EXCLUDED_IDS).default([]),
 })
 
-/** Last result, kept as text so editing the die later does not change it. */
+/** One die of a roll, kept as text so editing the die later does not change it. */
+export const rolledDieSchema = z.object({
+  groupId: idSchema,
+  faceId: idSchema,
+  label: labelSchema,
+  value: z.number().optional(),
+  isCritical: z.boolean().default(false),
+  isFumble: z.boolean().default(false),
+  /** Several dice can be winners at the same time (ties). */
+  isWinner: z.boolean().default(false),
+})
+
+/** Last result of the element. */
 export const lastRollSchema = z.object({
   at: isoDateSchema,
-  results: z
-    .array(
-      z.object({
-        groupId: idSchema,
-        faceId: idSchema,
-        label: labelSchema,
-        value: z.number().optional(),
-      }),
-    )
-    .max(LIMITS.maxGroupsPerElement * LIMITS.maxDicePerGroup),
-  /** Final result after operations and modifiers. Null if no face has a numeric value. */
+  results: z.array(rolledDieSchema).max(LIMITS.maxGroupsPerElement * LIMITS.maxDicePerGroup),
+  /** Result of the operation, before the modifiers. Null if there is no numeric value. */
+  raw: z.number().nullable().default(null),
+  /** Final result after operation, modifiers and rounding. Null if there is no numeric value. */
   total: z.number().nullable(),
+  /** True or false when a difficulty is set and there is a total; null otherwise. */
+  difficultyMet: z.boolean().nullable().default(null),
+  error: z.enum(['divisionByZero']).optional(),
 })
 
 /** Fields specific to the dice type (the common ones are in element.ts). */
@@ -99,3 +107,5 @@ export type Face = z.infer<typeof faceSchema>
 export type DiceGroup = z.infer<typeof diceGroupSchema>
 export type Modifier = z.infer<typeof modifierSchema>
 export type Operation = (typeof OPERATIONS)[number]
+export type LastRoll = z.infer<typeof lastRollSchema>
+export type RolledDie = z.infer<typeof rolledDieSchema>
