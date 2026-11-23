@@ -25,7 +25,7 @@ export async function addHistory(
 }
 
 /** Newest first. */
-export async function listHistory(db: DiceRouletteDb, tableId: string, max = LIMITS.defaultHistoryEntries) {
+export async function listHistory(db: DiceRouletteDb, tableId: string, max: number = LIMITS.defaultHistoryEntries) {
   return rangeOf(db, tableId).reverse().limit(max).toArray()
 }
 
