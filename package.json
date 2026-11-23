@@ -29,6 +29,7 @@
   },
   "devDependencies": {
     "@types/node": "^26.6.6",
+    "@vite-pwa/nuxt": "^2.0.3",
     "fake-indexeddb": "^6.2.8",
     "prettier": "^3.10.1",
     "typescript": "^5.9.3",

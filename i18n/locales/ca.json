@@ -52,7 +52,8 @@
     "timeUp": "S'ha acabat el temps!",
     "rotate": "Girar cap per avall",
     "more": "+{n} més",
-    "remaining": "En queden {n}"
+    "remaining": "En queden {n}",
+    "keepAwake": "Mantenir la pantalla encesa"
   },
   "add": {
     "wheel": "Ruleta",
@@ -196,5 +197,9 @@
     "confirm": "Afegir «{name}» a la teva biblioteca? Elements: {n}",
     "add": "Afegir a la biblioteca",
     "invalid": "Aquest enllaç no és vàlid o la taula està malmesa."
+  },
+  "pwa": {
+    "install": "Instal·lar l'app",
+    "offlineReady": "Llest: ja funciona sense connexió"
   }
 }

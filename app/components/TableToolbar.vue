@@ -3,6 +3,7 @@ const emit = defineEmits<{ rollAll: [] }>()
 const { t } = useI18n()
 const store = useTableStore()
 const player = usePlayer()
+const wake = useWakeLock()
 const editing = computed(() => store.mode === 'edit')
 
 function reset() {
@@ -23,7 +24,19 @@ function reset() {
       @click="reset"
     />
     <UButton
+      v-if="wake.supported.value"
       class="ms-auto"
+      :icon="wake.active.value ? 'i-lucide-sun' : 'i-lucide-sun-dim'"
+      :color="wake.active.value ? 'info' : 'neutral'"
+      :variant="wake.active.value ? 'subtle' : 'ghost'"
+      size="lg"
+      :aria-pressed="wake.active.value"
+      :aria-label="t('play.keepAwake')"
+      :title="t('play.keepAwake')"
+      @click="wake.toggle()"
+    />
+    <UButton
+      :class="wake.supported.value ? '' : 'ms-auto'"
       :icon="editing ? 'i-lucide-check' : 'i-lucide-pencil'"
       :label="editing ? t('toolbar.play') : t('toolbar.edit')"
       color="neutral"

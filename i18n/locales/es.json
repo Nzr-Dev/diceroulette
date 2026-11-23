@@ -52,7 +52,8 @@
     "timeUp": "¡Se acabó el tiempo!",
     "rotate": "Girar boca abajo",
     "more": "+{n} más",
-    "remaining": "Quedan {n}"
+    "remaining": "Quedan {n}",
+    "keepAwake": "Mantener la pantalla encendida"
   },
   "add": {
     "wheel": "Ruleta",
@@ -196,5 +197,9 @@
     "confirm": "¿Añadir «{name}» a tu biblioteca? Elementos: {n}",
     "add": "Añadir a la biblioteca",
     "invalid": "Este enlace no es válido o la mesa está dañada."
+  },
+  "pwa": {
+    "install": "Instalar la app",
+    "offlineReady": "Listo: ya funciona sin conexión"
   }
 }

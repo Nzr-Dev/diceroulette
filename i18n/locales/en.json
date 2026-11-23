@@ -52,7 +52,8 @@
     "timeUp": "Time's up!",
     "rotate": "Turn upside down",
     "more": "+{n} more",
-    "remaining": "{n} left"
+    "remaining": "{n} left",
+    "keepAwake": "Keep screen on"
   },
   "add": {
     "wheel": "Wheel",
@@ -196,5 +197,9 @@
     "confirm": "Add \"{name}\" to your library? Elements: {n}",
     "add": "Add to library",
     "invalid": "This link is not valid or the table is damaged."
+  },
+  "pwa": {
+    "install": "Install the app",
+    "offlineReady": "Ready: it now works without a connection"
   }
 }
