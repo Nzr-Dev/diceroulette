@@ -1,0 +1,38 @@
+{
+  "footer": {
+    "tagline": "Dice, wheels, counters and timers for your games"
+  },
+  "header": {
+    "language": "Language",
+    "theme": "Dark mode"
+  },
+  "home": {
+    "title": "Quick table",
+    "description": "Dice, wheels, counters and timers for board games, RPGs and card games. Free, works offline.",
+    "quickTable": "Quick table",
+    "empty": "Nothing here yet. Switch to edit mode and add your first die.",
+    "nothingToRoll": "Nothing to roll: everything is disabled or used up"
+  },
+  "toolbar": {
+    "rollAll": "Roll all",
+    "reset": "Reset",
+    "edit": "Edit",
+    "play": "Play"
+  },
+  "element": {
+    "enabled": "Enabled",
+    "remove": "Remove",
+    "roll": "Roll",
+    "spin": "Spin",
+    "decrease": "Decrease",
+    "increase": "Increase",
+    "pause": "Pause",
+    "start": "Start",
+    "reset": "Reset"
+  },
+  "history": {
+    "title": "History",
+    "clear": "Clear",
+    "empty": "No rolls yet"
+  }
+}

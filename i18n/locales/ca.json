@@ -1,0 +1,38 @@
+{
+  "footer": {
+    "tagline": "Daus, ruletes, comptadors i temporitzadors per als teus jocs"
+  },
+  "header": {
+    "language": "Idioma",
+    "theme": "Mode fosc"
+  },
+  "home": {
+    "title": "Taula ràpida",
+    "description": "Daus, ruletes, comptadors i temporitzadors per a jocs de taula, rol i cartes. Gratis i funciona sense connexió.",
+    "quickTable": "Taula ràpida",
+    "empty": "Encara no hi ha res. Passa al mode edició i afegeix el teu primer dau.",
+    "nothingToRoll": "Res a tirar: tot està deshabilitat o esgotat"
+  },
+  "toolbar": {
+    "rollAll": "Tirar tot",
+    "reset": "Reiniciar",
+    "edit": "Editar",
+    "play": "Jugar"
+  },
+  "element": {
+    "enabled": "Habilitat",
+    "remove": "Eliminar",
+    "roll": "Tirar",
+    "spin": "Girar",
+    "decrease": "Restar",
+    "increase": "Sumar",
+    "pause": "Pausar",
+    "start": "Iniciar",
+    "reset": "Reiniciar"
+  },
+  "history": {
+    "title": "Historial",
+    "clear": "Esborrar",
+    "empty": "Encara no hi ha tirades"
+  }
+}

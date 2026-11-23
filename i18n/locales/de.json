@@ -1,0 +1,38 @@
+{
+  "footer": {
+    "tagline": "Würfel, Glücksräder, Zähler und Timer für deine Spiele"
+  },
+  "header": {
+    "language": "Sprache",
+    "theme": "Dunkelmodus"
+  },
+  "home": {
+    "title": "Schnelltisch",
+    "description": "Würfel, Glücksräder, Zähler und Timer für Brettspiele, Rollenspiele und Kartenspiele. Kostenlos und offline nutzbar.",
+    "quickTable": "Schnelltisch",
+    "empty": "Noch nichts da. Wechsle in den Bearbeitungsmodus und füge deinen ersten Würfel hinzu.",
+    "nothingToRoll": "Nichts zu würfeln: alles ist deaktiviert oder aufgebraucht"
+  },
+  "toolbar": {
+    "rollAll": "Alle würfeln",
+    "reset": "Zurücksetzen",
+    "edit": "Bearbeiten",
+    "play": "Spielen"
+  },
+  "element": {
+    "enabled": "Aktiviert",
+    "remove": "Entfernen",
+    "roll": "Würfeln",
+    "spin": "Drehen",
+    "decrease": "Verringern",
+    "increase": "Erhöhen",
+    "pause": "Pause",
+    "start": "Start",
+    "reset": "Zurücksetzen"
+  },
+  "history": {
+    "title": "Verlauf",
+    "clear": "Löschen",
+    "empty": "Noch keine Würfe"
+  }
+}

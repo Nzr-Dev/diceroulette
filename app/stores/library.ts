@@ -1,6 +1,6 @@
 import { defineStore } from 'pinia'
 import { ref } from 'vue'
-import type { GameTable } from '../../shared/schemas'
+import type { GameTable } from '#shared/schemas'
 import {
   createTable, deleteTable, duplicateTable, exportTable, importTable, listDeletedTables, listTables,
   purgeDeletedTables, undoDeleteTable, type SaveResult,

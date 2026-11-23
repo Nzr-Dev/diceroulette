@@ -1,6 +1,6 @@
 import { defineStore } from 'pinia'
 import { ref } from 'vue'
-import { settingsSchema, type Settings } from '../../shared/schemas'
+import { settingsSchema, type Settings } from '#shared/schemas'
 import { getSettings, updateSettings } from '../db'
 import { getDb } from './context'
 

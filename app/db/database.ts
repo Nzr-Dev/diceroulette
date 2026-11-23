@@ -1,5 +1,5 @@
 import Dexie, { type EntityTable } from 'dexie'
-import type { GameTable, HistoryEntry, Settings } from '../../shared/schemas'
+import type { GameTable, HistoryEntry, Settings } from '#shared/schemas'
 
 /** Sync bookkeeping of a table. Kept apart from the table so it is never exported. */
 export interface TableMeta {

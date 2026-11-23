@@ -1,5 +1,5 @@
-import { LIMITS, parseTable, type GameTable } from '../../shared/schemas'
-import { copyTable } from '../../shared/tables'
+import { LIMITS, parseTable, type GameTable } from '#shared/schemas'
+import { copyTable } from '#shared/tables'
 import type { DiceRouletteDb } from './database'
 import { deleteHistory } from './historyRepo'
 

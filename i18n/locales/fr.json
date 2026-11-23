@@ -1,0 +1,38 @@
+{
+  "footer": {
+    "tagline": "Dés, roues, compteurs et minuteurs pour vos jeux"
+  },
+  "header": {
+    "language": "Langue",
+    "theme": "Mode sombre"
+  },
+  "home": {
+    "title": "Table rapide",
+    "description": "Dés, roues, compteurs et minuteurs pour jeux de société, jeux de rôle et jeux de cartes. Gratuit et fonctionne hors ligne.",
+    "quickTable": "Table rapide",
+    "empty": "Rien ici pour le moment. Passez en mode édition et ajoutez votre premier dé.",
+    "nothingToRoll": "Rien à lancer : tout est désactivé ou épuisé"
+  },
+  "toolbar": {
+    "rollAll": "Tout lancer",
+    "reset": "Réinitialiser",
+    "edit": "Modifier",
+    "play": "Jouer"
+  },
+  "element": {
+    "enabled": "Activé",
+    "remove": "Supprimer",
+    "roll": "Lancer",
+    "spin": "Tourner",
+    "decrease": "Diminuer",
+    "increase": "Augmenter",
+    "pause": "Pause",
+    "start": "Démarrer",
+    "reset": "Réinitialiser"
+  },
+  "history": {
+    "title": "Historique",
+    "clear": "Effacer",
+    "empty": "Aucun lancer pour le moment"
+  }
+}

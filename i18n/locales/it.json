@@ -1,0 +1,38 @@
+{
+  "footer": {
+    "tagline": "Dadi, ruote, contatori e timer per i tuoi giochi"
+  },
+  "header": {
+    "language": "Lingua",
+    "theme": "Modalità scura"
+  },
+  "home": {
+    "title": "Tavolo rapido",
+    "description": "Dadi, ruote, contatori e timer per giochi da tavolo, di ruolo e di carte. Gratis e funziona offline.",
+    "quickTable": "Tavolo rapido",
+    "empty": "Ancora niente qui. Passa alla modalità modifica e aggiungi il tuo primo dado.",
+    "nothingToRoll": "Niente da lanciare: tutto è disattivato o esaurito"
+  },
+  "toolbar": {
+    "rollAll": "Lancia tutto",
+    "reset": "Reimposta",
+    "edit": "Modifica",
+    "play": "Gioca"
+  },
+  "element": {
+    "enabled": "Attivato",
+    "remove": "Rimuovi",
+    "roll": "Lancia",
+    "spin": "Gira",
+    "decrease": "Diminuisci",
+    "increase": "Aumenta",
+    "pause": "Pausa",
+    "start": "Avvia",
+    "reset": "Reimposta"
+  },
+  "history": {
+    "title": "Cronologia",
+    "clear": "Cancella",
+    "empty": "Ancora nessun lancio"
+  }
+}

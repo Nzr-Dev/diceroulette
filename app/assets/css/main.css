@@ -1,0 +1,17 @@
+@import 'tailwindcss';
+@import '@nuxt/ui';
+
+/* Light: soft gray with black elements. Dark: almost black with white elements. */
+:root {
+  --ui-bg: #f4f4f5;
+}
+
+.dark {
+  --ui-bg: #0b0b0d;
+}
+
+body {
+  /* Phones: no accidental zoom or pull-to-refresh while playing. */
+  overscroll-behavior-y: contain;
+  -webkit-tap-highlight-color: transparent;
+}

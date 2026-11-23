@@ -1,5 +1,5 @@
 import Dexie from 'dexie'
-import { historyEntrySchema, LIMITS, type HistoryEntry } from '../../shared/schemas'
+import { historyEntrySchema, LIMITS, type HistoryEntry } from '#shared/schemas'
 import type { DiceRouletteDb, HistoryRow } from './database'
 
 function rangeOf(db: DiceRouletteDb, tableId: string) {

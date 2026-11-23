@@ -1,13 +1,13 @@
 import { defineStore } from 'pinia'
 import { ref } from 'vue'
-import { cleanElement, copyElement } from '../../shared/tables'
+import { cleanElement, copyElement } from '#shared/tables'
 import {
   pauseTimer, resetCounter, resetExclusion, resetTimer, resetWheel, rollAll, rollDice, setCounterValue,
   spinWheel, startTimer, stepCounter, tickTimer,
-} from '../../shared/engine'
+} from '#shared/engine'
 import {
   elementSchema, LIMITS, type Element, type GameTable, type HistoryEntry,
-} from '../../shared/schemas'
+} from '#shared/schemas'
 import { addHistory, clearHistory, getQuickTable, getTable, listHistory, saveTable, type HistoryRow } from '../db'
 import { getDb, plain } from './context'
 import { useSettingsStore } from './settings'

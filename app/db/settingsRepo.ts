@@ -1,4 +1,4 @@
-import { settingsSchema, type Settings } from '../../shared/schemas'
+import { settingsSchema, type Settings } from '#shared/schemas'
 import type { DiceRouletteDb } from './database'
 
 /** Preferences of this device. Wrong or missing values fall back to the defaults. */

@@ -1,0 +1,38 @@
+{
+  "footer": {
+    "tagline": "Kości, koła losowania, liczniki i timery do Twoich gier"
+  },
+  "header": {
+    "language": "Język",
+    "theme": "Tryb ciemny"
+  },
+  "home": {
+    "title": "Szybki stół",
+    "description": "Kości, koła losowania, liczniki i timery do gier planszowych, RPG i karcianych. Za darmo i działa offline.",
+    "quickTable": "Szybki stół",
+    "empty": "Na razie pusto. Przełącz na tryb edycji i dodaj pierwszą kość.",
+    "nothingToRoll": "Nic do rzucenia: wszystko jest wyłączone lub wyczerpane"
+  },
+  "toolbar": {
+    "rollAll": "Rzuć wszystkim",
+    "reset": "Resetuj",
+    "edit": "Edytuj",
+    "play": "Graj"
+  },
+  "element": {
+    "enabled": "Włączone",
+    "remove": "Usuń",
+    "roll": "Rzuć",
+    "spin": "Zakręć",
+    "decrease": "Zmniejsz",
+    "increase": "Zwiększ",
+    "pause": "Pauza",
+    "start": "Start",
+    "reset": "Resetuj"
+  },
+  "history": {
+    "title": "Historia",
+    "clear": "Wyczyść",
+    "empty": "Brak rzutów"
+  }
+}

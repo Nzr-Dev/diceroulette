@@ -1,0 +1,38 @@
+{
+  "footer": {
+    "tagline": "Dados, ruletas, contadores y temporizadores para tus juegos"
+  },
+  "header": {
+    "language": "Idioma",
+    "theme": "Modo oscuro"
+  },
+  "home": {
+    "title": "Mesa rápida",
+    "description": "Dados, ruletas, contadores y temporizadores para juegos de mesa, rol y cartas. Gratis y funciona sin conexión.",
+    "quickTable": "Mesa rápida",
+    "empty": "Aún no hay nada. Pasa al modo edición y añade tu primer dado.",
+    "nothingToRoll": "Nada que tirar: todo está deshabilitado o agotado"
+  },
+  "toolbar": {
+    "rollAll": "Tirar todo",
+    "reset": "Reiniciar",
+    "edit": "Editar",
+    "play": "Jugar"
+  },
+  "element": {
+    "enabled": "Habilitado",
+    "remove": "Eliminar",
+    "roll": "Tirar",
+    "spin": "Girar",
+    "decrease": "Restar",
+    "increase": "Sumar",
+    "pause": "Pausar",
+    "start": "Iniciar",
+    "reset": "Reiniciar"
+  },
+  "history": {
+    "title": "Historial",
+    "clear": "Borrar",
+    "empty": "Aún no hay tiradas"
+  }
+}
