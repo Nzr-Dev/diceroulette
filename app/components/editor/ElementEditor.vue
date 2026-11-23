@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { sanitizeDice, validateElement } from '#shared/editor'
+import { sanitizeElement, validateElement } from '#shared/editor'
 import type { Element } from '#shared/schemas'
 import { plain } from '~/stores/context'
 
@@ -30,7 +30,8 @@ watch(
 
 function save() {
   if (!draft.value) return
-  const candidate = draft.value.type === 'dice' ? sanitizeDice(plain(draft.value)) : plain(draft.value)
+  const original = store.table?.elements.find((e) => e.id === draft.value?.id)
+  const candidate = sanitizeElement(plain(draft.value), original)
   const result = validateElement(candidate)
   if (!result.ok) {
     errors.value = result.errors
@@ -55,6 +56,9 @@ function save() {
           </UFormField>
         </div>
         <EditorDiceFields v-if="draft.type === 'dice'" v-model="draft" />
+        <EditorWheelFields v-else-if="draft.type === 'wheel'" v-model="draft" />
+        <EditorCounterFields v-else-if="draft.type === 'counter'" v-model="draft" />
+        <EditorTimerFields v-else v-model="draft" />
       </div>
     </template>
     <template #footer>

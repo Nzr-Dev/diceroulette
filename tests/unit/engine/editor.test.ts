@@ -56,3 +56,56 @@ describe('validateElement', () => {
     }
   })
 })
+
+import { addSectors, joinDuration, sanitizeElement, sectorsFromLines, splitDuration } from '../../../shared/editor'
+import { createCounter, createTimer, createWheel, startTimer } from '../../../shared/engine'
+
+describe('wheel helpers', () => {
+  it('sectorsFromLines trims, skips blanks and caps length and count', () => {
+    const s = sectorsFromLines('  Pizza \n\n Sushi\r\nTacos  \n   \n' + 'x'.repeat(300))
+    expect(s.map((x) => x.label.length)).toEqual([5, 5, 5, 100])
+    expect(s.every((x) => x.weight === 1)).toBe(true)
+    expect(sectorsFromLines('a\nb\nc', 2)).toHaveLength(2)
+    expect(sectorsFromLines('')).toEqual([])
+  })
+  it('addSectors never passes the limit', () => {
+    const w = createWheel('W', ['a'])
+    const many = sectorsFromLines(Array.from({ length: 600 }, (_, i) => `s${i}`).join('\n'))
+    expect(addSectors(w, many).sectors).toHaveLength(LIMITS.maxSectorsPerWheel)
+  })
+  it('sanitize forgets used sectors that no longer exist', () => {
+    const w = createWheel('W', ['a', 'b'])
+    const kept = w.sectors[0]!.id
+    const edited = { ...w, noRepeat: true, usedSectorIds: [kept, crypto.randomUUID()] }
+    expect(sanitizeElement(edited, w)).toMatchObject({ usedSectorIds: [kept] })
+  })
+})
+
+describe('counter sanitize', () => {
+  it('brings value and initial inside the new limits so the editor does not fail on untouched fields', () => {
+    const c = createCounter('C', 40)
+    const edited = { ...c, value: 55, max: 20 }
+    const out = sanitizeElement(edited, c)
+    expect(out).toMatchObject({ value: 20, initial: 20 })
+    expect(validateElement(out).ok).toBe(true)
+  })
+  it('turning off negatives or decimals fixes the value', () => {
+    const c = { ...createCounter('C', 0), value: -3.5, allowNegative: false, allowDecimals: false }
+    expect(sanitizeElement(c)).toMatchObject({ value: 0 })
+  })
+})
+
+describe('timer helpers', () => {
+  it('splits and joins durations', () => {
+    expect(splitDuration(125)).toEqual({ minutes: 2, seconds: 5 })
+    expect(joinDuration(2, 5)).toBe(125)
+    expect(joinDuration(99999, 0)).toBe(LIMITS.maxTimerSeconds)
+    expect(joinDuration(-1, -5)).toBe(0)
+  })
+  it('changing the duration or mode restarts a running timer; other edits do not', () => {
+    const t = startTimer(createTimer('T', 60), Date.now())
+    expect(t.status).toBe('running')
+    expect(sanitizeElement({ ...t, durationSeconds: 90 }, t)).toMatchObject({ status: 'idle', elapsedMs: 0 })
+    expect(sanitizeElement({ ...t, name: 'New name' }, t)).toMatchObject({ status: 'running' })
+  })
+})
