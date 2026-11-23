@@ -155,5 +155,46 @@
     "pentagon": "Pentàgon",
     "hexagon": "Hexàgon",
     "octagon": "Octàgon"
+  },
+  "nav": {
+    "library": "Biblioteca"
+  },
+  "library": {
+    "new": "Nova taula",
+    "newName": "Taula nova",
+    "empty": "Encara no hi ha taules. Crea'n una, importa un arxiu o desa la teva taula ràpida des de l'inici.",
+    "import": "Importar arxiu",
+    "importError": "No s'ha pogut importar: {error}",
+    "imported": "Taula importada",
+    "tooBig": "L'arxiu és massa gran",
+    "open": "Obrir",
+    "rename": "Reanomenar",
+    "duplicate": "Duplicar",
+    "copyName": "{name} (còpia)",
+    "export": "Exportar arxiu",
+    "share": "Copiar enllaç per compartir",
+    "shareCopied": "Enllaç copiat",
+    "shareTooLong": "Aquesta taula és massa gran per a un enllaç. Exporta-la com a arxiu.",
+    "shareFailed": "No s'ha pogut copiar l'enllaç",
+    "delete": "Eliminar",
+    "deleteTitle": "Eliminar taula",
+    "deleteConfirm": "Eliminar «{name}»? Podràs desfer-ho.",
+    "deleted": "Taula eliminada",
+    "undo": "Desfer",
+    "restore": "Restaurar",
+    "trash": "Paperera",
+    "trashHelp": "Les taules eliminades s'esborren definitivament als 30 dies.",
+    "elements": "{n} element | {n} elements",
+    "more": "Més opcions",
+    "back": "Tornar a la biblioteca",
+    "saveToLibrary": "Desar a la biblioteca",
+    "saved": "Desada a la teva biblioteca",
+    "notFound": "Aquesta taula no existeix en aquest dispositiu."
+  },
+  "import": {
+    "title": "Importar taula",
+    "confirm": "Afegir «{name}» a la teva biblioteca? Elements: {n}",
+    "add": "Afegir a la biblioteca",
+    "invalid": "Aquest enllaç no és vàlid o la taula està malmesa."
   }
 }

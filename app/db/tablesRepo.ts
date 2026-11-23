@@ -170,3 +170,10 @@ export async function markSynced(db: DiceRouletteDb, id: string, serverRevision:
 export async function listDirtyTableIds(db: DiceRouletteDb): Promise<string[]> {
   return (await db.tableMeta.filter((m) => m.dirty).primaryKeys()) as string[]
 }
+
+/** Renames a table (the quick one too). */
+export async function renameTable(db: DiceRouletteDb, id: string, name: string, now = new Date()): Promise<SaveResult> {
+  const table = await getTable(db, id)
+  if (!table) return { ok: false, error: 'Table not found' }
+  return saveTable(db, { ...table, name: name.trim() }, now)
+}

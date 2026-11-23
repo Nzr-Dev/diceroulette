@@ -3,7 +3,7 @@ import { ref } from 'vue'
 import type { GameTable } from '#shared/schemas'
 import {
   createTable, deleteTable, duplicateTable, exportTable, importTable, listDeletedTables, listTables,
-  purgeDeletedTables, undoDeleteTable, type SaveResult,
+  purgeDeletedTables, renameTable, undoDeleteTable, type SaveResult,
 } from '../db'
 import { getDb } from './context'
 
@@ -30,6 +30,7 @@ export const useLibraryStore = defineStore('library', () => {
   const create = (name: string) => run(() => createTable(getDb(), name))
   const duplicate = (id: string, name: string) => run(() => duplicateTable(getDb(), id, { name }))
   const importFromText = (text: string) => run(() => importTable(getDb(), text))
+  const rename = (id: string, name: string) => run(() => renameTable(getDb(), id, name))
   const exportJson = (id: string) => exportTable(getDb(), id)
 
   async function remove(id: string): Promise<boolean> {
@@ -48,5 +49,5 @@ export const useLibraryStore = defineStore('library', () => {
     return done
   }
 
-  return { tables, trash, lastDeletedId, load, create, duplicate, importFromText, exportJson, remove, undoRemove }
+  return { tables, trash, lastDeletedId, load, create, duplicate, importFromText, rename, exportJson, remove, undoRemove }
 })

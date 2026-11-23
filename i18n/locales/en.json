@@ -155,5 +155,46 @@
     "pentagon": "Pentagon",
     "hexagon": "Hexagon",
     "octagon": "Octagon"
+  },
+  "nav": {
+    "library": "Library"
+  },
+  "library": {
+    "new": "New table",
+    "newName": "New table",
+    "empty": "No tables yet. Create one, import a file, or save your quick table from the home page.",
+    "import": "Import file",
+    "importError": "Could not import: {error}",
+    "imported": "Table imported",
+    "tooBig": "The file is too big",
+    "open": "Open",
+    "rename": "Rename",
+    "duplicate": "Duplicate",
+    "copyName": "{name} (copy)",
+    "export": "Export file",
+    "share": "Copy share link",
+    "shareCopied": "Link copied",
+    "shareTooLong": "This table is too big for a link. Export it as a file instead.",
+    "shareFailed": "Could not copy the link",
+    "delete": "Delete",
+    "deleteTitle": "Delete table",
+    "deleteConfirm": "Delete \"{name}\"? You will be able to undo it.",
+    "deleted": "Table deleted",
+    "undo": "Undo",
+    "restore": "Restore",
+    "trash": "Trash",
+    "trashHelp": "Deleted tables are removed for good after 30 days.",
+    "elements": "{n} element | {n} elements",
+    "more": "More options",
+    "back": "Back to the library",
+    "saveToLibrary": "Save to library",
+    "saved": "Saved to your library",
+    "notFound": "This table does not exist on this device."
+  },
+  "import": {
+    "title": "Import table",
+    "confirm": "Add \"{name}\" to your library? Elements: {n}",
+    "add": "Add to library",
+    "invalid": "This link is not valid or the table is damaged."
   }
 }

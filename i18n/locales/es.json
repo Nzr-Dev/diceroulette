@@ -155,5 +155,46 @@
     "pentagon": "Pentágono",
     "hexagon": "Hexágono",
     "octagon": "Octógono"
+  },
+  "nav": {
+    "library": "Biblioteca"
+  },
+  "library": {
+    "new": "Nueva mesa",
+    "newName": "Mesa nueva",
+    "empty": "Aún no hay mesas. Crea una, importa un archivo o guarda tu mesa rápida desde el inicio.",
+    "import": "Importar archivo",
+    "importError": "No se pudo importar: {error}",
+    "imported": "Mesa importada",
+    "tooBig": "El archivo es demasiado grande",
+    "open": "Abrir",
+    "rename": "Renombrar",
+    "duplicate": "Duplicar",
+    "copyName": "{name} (copia)",
+    "export": "Exportar archivo",
+    "share": "Copiar enlace para compartir",
+    "shareCopied": "Enlace copiado",
+    "shareTooLong": "Esta mesa es demasiado grande para un enlace. Expórtala como archivo.",
+    "shareFailed": "No se pudo copiar el enlace",
+    "delete": "Eliminar",
+    "deleteTitle": "Eliminar mesa",
+    "deleteConfirm": "¿Eliminar «{name}»? Podrás deshacerlo.",
+    "deleted": "Mesa eliminada",
+    "undo": "Deshacer",
+    "restore": "Restaurar",
+    "trash": "Papelera",
+    "trashHelp": "Las mesas eliminadas se borran definitivamente a los 30 días.",
+    "elements": "{n} elemento | {n} elementos",
+    "more": "Más opciones",
+    "back": "Volver a la biblioteca",
+    "saveToLibrary": "Guardar en la biblioteca",
+    "saved": "Guardada en tu biblioteca",
+    "notFound": "Esta mesa no existe en este dispositivo."
+  },
+  "import": {
+    "title": "Importar mesa",
+    "confirm": "¿Añadir «{name}» a tu biblioteca? Elementos: {n}",
+    "add": "Añadir a la biblioteca",
+    "invalid": "Este enlace no es válido o la mesa está dañada."
   }
 }

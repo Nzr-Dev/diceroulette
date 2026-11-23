@@ -21,6 +21,10 @@ const isDark = computed({
         <span>DiceRoulette</span>
       </NuxtLink>
 
+      <UButton :to="useLocalePath()('/library')" icon="i-lucide-library" color="neutral" variant="ghost" :aria-label="t('nav.library')" class="ms-1">
+        <span class="hidden sm:inline">{{ t('nav.library') }}</span>
+      </UButton>
+
       <div class="ms-auto flex items-center gap-2">
         <USelect
           :model-value="locale"
