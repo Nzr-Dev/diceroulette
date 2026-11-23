@@ -1,6 +1,7 @@
 {
   "footer": {
-    "tagline": "Dice, wheels, counters and timers for your games"
+    "tagline": "Dice, wheels, counters and timers for your games",
+    "help": "Help"
   },
   "header": {
     "language": "Language",
@@ -201,5 +202,50 @@
   "pwa": {
     "install": "Install the app",
     "offlineReady": "Ready: it now works without a connection"
+  },
+  "help": {
+    "title": "How it works",
+    "intro": "Short guide. Everything is optional: the quick table on the home page already works as it is.",
+    "tables": {
+      "title": "Tables",
+      "text": "A table groups the dice, wheels, counters and timers of one game. Use the pencil to edit, the dice button to play. Save the quick table to your library to keep it."
+    },
+    "dice": {
+      "title": "Dice",
+      "text": "Build any die: faces with text and value, several groups (1d20 + 2d6), modifiers, highlights for critical and fumble, and exclusion to draw without repeats."
+    },
+    "wheels": {
+      "title": "Wheels",
+      "text": "Sectors can have weights and colors. Turn on exclusion to remove a sector once it has come up, and reset it when you want."
+    },
+    "counters": {
+      "title": "Counters",
+      "text": "Counters count up or down with custom steps, limits, decimals and alerts. Hold a button to repeat. Flip a counter 180° for the player in front of you."
+    },
+    "timers": {
+      "title": "Timers",
+      "text": "Countdown or stopwatch. You get a visual notice when time is up. Keep the screen on from the table toolbar."
+    },
+    "share": {
+      "title": "Share and export",
+      "text": "Export a table as a file or as a link. Whoever opens it gets a copy, after confirming."
+    },
+    "offline": {
+      "title": "Offline and phone",
+      "text": "Open the web once with a connection and it works offline. Install it from the footer to use it like an app."
+    },
+    "limits": {
+      "title": "Limits",
+      "text": "The most you can use. They keep the app fast and your data safe.",
+      "elements": "Elements per table",
+      "dicePerGroup": "Dice per group",
+      "faces": "Faces per die",
+      "sectors": "Sectors per wheel",
+      "timer": "Longest timer",
+      "history": "History entries kept",
+      "tableSize": "Maximum size of a table",
+      "accountSize": "Maximum size per account",
+      "hours": "{n} hours"
+    }
   }
 }

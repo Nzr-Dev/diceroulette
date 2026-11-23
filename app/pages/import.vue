@@ -45,6 +45,7 @@ async function add() {
 
 <template>
   <ClientOnly>
+    <h1 class="sr-only">{{ t('import.title') }}</h1>
     <UCard v-if="state.kind === 'ready'">
       <div class="space-y-4 text-center">
         <UIcon name="i-lucide-download" class="size-10" />

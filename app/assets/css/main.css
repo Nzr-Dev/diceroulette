@@ -4,10 +4,18 @@
 /* Light: soft gray with black elements. Dark: almost black with white elements. */
 :root {
   --ui-bg: #f4f4f5;
+  /* Darker than the default so muted text keeps enough contrast on the soft gray (WCAG AA). */
+  --ui-text-muted: var(--color-zinc-600);
+}
+
+:root:not(.dark) {
+  /* Red text on the pale red alert background needs a darker red in light mode. */
+  --ui-error: var(--color-red-700);
 }
 
 .dark {
   --ui-bg: #0b0b0d;
+  --ui-text-muted: var(--color-zinc-400);
 }
 
 body {

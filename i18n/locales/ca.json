@@ -1,6 +1,7 @@
 {
   "footer": {
-    "tagline": "Daus, ruletes, comptadors i temporitzadors per als teus jocs"
+    "tagline": "Daus, ruletes, comptadors i temporitzadors per als teus jocs",
+    "help": "Ajuda"
   },
   "header": {
     "language": "Idioma",
@@ -201,5 +202,50 @@
   "pwa": {
     "install": "Instal·lar l'app",
     "offlineReady": "Llest: ja funciona sense connexió"
+  },
+  "help": {
+    "title": "Com funciona",
+    "intro": "Guia breu. Tot és opcional: la taula ràpida de la pàgina d'inici ja funciona tal qual.",
+    "tables": {
+      "title": "Taules",
+      "text": "Una taula agrupa els daus, ruletes, comptadors i temporitzadors d'un joc. Fes servir el llapis per editar i el botó de daus per jugar. Desa la taula ràpida a la biblioteca per conservar-la."
+    },
+    "dice": {
+      "title": "Daus",
+      "text": "Crea qualsevol dau: cares amb text i valor, diversos grups (1d20 + 2d6), modificadors, ressalts de crític i pífia, i exclusió per treure sense repetir."
+    },
+    "wheels": {
+      "title": "Ruletes",
+      "text": "Els sectors poden tenir pesos i colors. Activa l'exclusió per treure un sector quan surt i reinicia-la quan vulguis."
+    },
+    "counters": {
+      "title": "Comptadors",
+      "text": "Els comptadors pugen o baixen amb passos, límits, decimals i avisos al teu gust. Mantén premut un botó per repetir. Gira un comptador 180° per al jugador del davant."
+    },
+    "timers": {
+      "title": "Temporitzadors",
+      "text": "Compte enrere o cronòmetre. Quan s'acaba el temps veus un avís visual. Mantén la pantalla encesa des de la barra de la taula."
+    },
+    "share": {
+      "title": "Compartir i exportar",
+      "text": "Exporta una taula com a fitxer o com a enllaç. Qui l'obri rep una còpia, després de confirmar-ho."
+    },
+    "offline": {
+      "title": "Sense connexió i mòbil",
+      "text": "Obre la web una vegada amb connexió i funcionarà sense. Instal·la-la des del peu de pàgina per fer-la servir com una app."
+    },
+    "limits": {
+      "title": "Límits",
+      "text": "El màxim que pots fer servir. Mantenen l'app ràpida i les teves dades segures.",
+      "elements": "Elements per taula",
+      "dicePerGroup": "Daus per grup",
+      "faces": "Cares per dau",
+      "sectors": "Sectors per ruleta",
+      "timer": "Temporitzador més llarg",
+      "history": "Entrades d'historial desades",
+      "tableSize": "Mida màxima d'una taula",
+      "accountSize": "Mida màxima per compte",
+      "hours": "{n} hores"
+    }
   }
 }

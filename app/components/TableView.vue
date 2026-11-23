@@ -70,6 +70,8 @@ async function saveToLibrary() {
         <UInput v-if="editing" :model-value="store.table.name" maxlength="100" class="flex-1" :aria-label="t('editor.name')" @update:model-value="(v: string) => store.rename(v)" />
         <h1 v-else class="text-xl font-semibold truncate">{{ store.table.name }}</h1>
       </div>
+      <!-- Every page needs a heading for screen readers; the quick table and the edit-mode name field have none visible. -->
+      <h1 v-if="store.table.isQuick || editing" class="sr-only">{{ store.table.isQuick ? t('home.quickTable') : store.table.name }}</h1>
 
       <TableToolbar @roll-all="rollEverything" />
 

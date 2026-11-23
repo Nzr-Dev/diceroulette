@@ -14,6 +14,7 @@ useHead({
     </main>
     <footer class="flex flex-col items-center gap-2 text-center text-xs text-muted py-4">
       <ClientOnly><InstallButton /></ClientOnly>
+      <NuxtLink :to="useLocalePath()('/help')" class="underline underline-offset-2">{{ t('footer.help') }}</NuxtLink>
       <span>{{ t('footer.tagline') }}</span>
     </footer>
   </div>

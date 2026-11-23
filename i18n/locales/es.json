@@ -1,6 +1,7 @@
 {
   "footer": {
-    "tagline": "Dados, ruletas, contadores y temporizadores para tus juegos"
+    "tagline": "Dados, ruletas, contadores y temporizadores para tus juegos",
+    "help": "Ayuda"
   },
   "header": {
     "language": "Idioma",
@@ -201,5 +202,50 @@
   "pwa": {
     "install": "Instalar la app",
     "offlineReady": "Listo: ya funciona sin conexión"
+  },
+  "help": {
+    "title": "Cómo funciona",
+    "intro": "Guía breve. Todo es opcional: la mesa rápida de la página de inicio ya funciona tal cual.",
+    "tables": {
+      "title": "Mesas",
+      "text": "Una mesa agrupa los dados, ruletas, contadores y temporizadores de un juego. Usa el lápiz para editar y el botón de dados para jugar. Guarda la mesa rápida en tu biblioteca para conservarla."
+    },
+    "dice": {
+      "title": "Dados",
+      "text": "Crea cualquier dado: caras con texto y valor, varios grupos (1d20 + 2d6), modificadores, resaltes de crítico y pifia, y exclusión para sacar sin repetir."
+    },
+    "wheels": {
+      "title": "Ruletas",
+      "text": "Los sectores pueden tener pesos y colores. Activa la exclusión para quitar un sector cuando sale y reinícala cuando quieras."
+    },
+    "counters": {
+      "title": "Contadores",
+      "text": "Los contadores suben o bajan con pasos, límites, decimales y avisos a tu gusto. Mantén pulsado un botón para repetir. Gira un contador 180° para el jugador de enfrente."
+    },
+    "timers": {
+      "title": "Temporizadores",
+      "text": "Cuenta atrás o cronómetro. Al acabar el tiempo ves un aviso visual. Mantén la pantalla encendida desde la barra de la mesa."
+    },
+    "share": {
+      "title": "Compartir y exportar",
+      "text": "Exporta una mesa como archivo o como enlace. Quien lo abra recibe una copia, tras confirmarlo."
+    },
+    "offline": {
+      "title": "Sin conexión y móvil",
+      "text": "Abre la web una vez con conexión y funcionará sin ella. Instálala desde el pie de página para usarla como una app."
+    },
+    "limits": {
+      "title": "Límites",
+      "text": "Lo máximo que puedes usar. Mantienen la app rápida y tus datos seguros.",
+      "elements": "Elementos por mesa",
+      "dicePerGroup": "Dados por grupo",
+      "faces": "Caras por dado",
+      "sectors": "Sectores por ruleta",
+      "timer": "Temporizador más largo",
+      "history": "Entradas de historial guardadas",
+      "tableSize": "Tamaño máximo de una mesa",
+      "accountSize": "Tamaño máximo por cuenta",
+      "hours": "{n} horas"
+    }
   }
 }
