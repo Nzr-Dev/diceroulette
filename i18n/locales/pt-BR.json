@@ -274,5 +274,8 @@
   "legal": {
     "updated": "Última revisão: {date}",
     "onlyEnglishSpanish": "O texto legal está disponível em inglês e espanhol."
+  },
+  "seo": {
+    "description": "Dados, roletas, contadores e temporizadores grátis para jogos de tabuleiro, RPG e cartas. Personalize tudo e use offline no celular."
   }
 }

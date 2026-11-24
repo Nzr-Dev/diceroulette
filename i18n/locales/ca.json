@@ -274,5 +274,8 @@
   "legal": {
     "updated": "Darrera revisió: {date}",
     "onlyEnglishSpanish": "El text legal està disponible en anglès i castellà."
+  },
+  "seo": {
+    "description": "Daus, ruletes, comptadors i temporitzadors gratuïts per a jocs de taula, rol i cartes. Personalitza-ho tot i funciona sense connexió al mòbil."
   }
 }

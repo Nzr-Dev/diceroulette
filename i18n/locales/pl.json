@@ -274,5 +274,8 @@
   "legal": {
     "updated": "Ostatnia aktualizacja: {date}",
     "onlyEnglishSpanish": "Tekst prawny jest dostępny po angielsku i hiszpańsku."
+  },
+  "seo": {
+    "description": "Darmowe kości, koła, liczniki i timery do gier planszowych, fabularnych i karcianych. Wszystko możesz dostosować, działa offline na telefonie."
   }
 }

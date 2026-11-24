@@ -274,5 +274,8 @@
   "legal": {
     "updated": "Ultima revisione: {date}",
     "onlyEnglishSpanish": "Il testo legale è disponibile in inglese e spagnolo."
+  },
+  "seo": {
+    "description": "Dadi, ruote, contatori e timer gratuiti per giochi da tavolo, di ruolo e di carte. Tutto personalizzabile, funziona offline sul telefono."
   }
 }

@@ -274,5 +274,8 @@
   "legal": {
     "updated": "Dernière révision : {date}",
     "onlyEnglishSpanish": "Le texte juridique est disponible en anglais et en espagnol."
+  },
+  "seo": {
+    "description": "Dés, roues, compteurs et minuteurs gratuits pour jeux de société, jeux de rôle et jeux de cartes. Tout se personnalise, fonctionne hors ligne sur mobile."
   }
 }

@@ -274,5 +274,8 @@
   "legal": {
     "updated": "Last updated: {date}",
     "onlyEnglishSpanish": "The legal text is available in English and Spanish."
+  },
+  "seo": {
+    "description": "Free dice, wheels, counters and timers for board games, role-playing and card games. Customize everything, works offline on your phone."
   }
 }

@@ -274,5 +274,8 @@
   "legal": {
     "updated": "Zuletzt geprüft: {date}",
     "onlyEnglishSpanish": "Der Rechtstext ist auf Englisch und Spanisch verfügbar."
+  },
+  "seo": {
+    "description": "Kostenlose Würfel, Glücksräder, Zähler und Timer für Brettspiele, Rollenspiele und Kartenspiele. Alles anpassbar, funktioniert offline auf dem Handy."
   }
 }

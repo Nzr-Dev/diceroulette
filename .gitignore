@@ -1,27 +1,23 @@
-# Nuxt dev/build outputs
-.output
-.data
-.nuxt
-.nitro
-.cache
-dist
-
-# Node dependencies
-node_modules
-
-# Logs
-logs
-*.log
-
-# Misc
-.DS_Store
-.fleet
-.idea
-
-# Local env files
+# Secrets: never commit them (set them in Vercel instead)
 .env
 .env.*
 !.env.example
 
-# Other
+# Build and tools
+node_modules
+.nuxt
+.output
+.data
+.nitro
+.cache
+dist
+logs
+*.log
+.DS_Store
+
+# Made by `prisma generate`
 server/generated
+
+# Playwright
+test-results
+playwright-report

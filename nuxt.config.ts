@@ -74,6 +74,7 @@ export default defineNuxtConfig({
     strategy: 'prefix_except_default',
     langDir: 'locales',
     vueI18n: 'i18n.config.ts',
+    lazy: true,
     locales: [
       { code: 'en', language: 'en-US', name: 'English', file: 'en.json' },
       { code: 'es', language: 'es-ES', name: 'Español', file: 'es.json' },
@@ -94,9 +95,5 @@ export default defineNuxtConfig({
       redirectOn: 'root',
       fallbackLocale: 'en',
     },
-  },
-
-  vite: {
-    optimizeDeps: { include: ['better-auth/vue', 'dexie', 'zod'] },
   },
 })

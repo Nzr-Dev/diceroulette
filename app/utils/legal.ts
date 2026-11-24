@@ -4,7 +4,7 @@
  */
 export const LEGAL = {
   /** Where people can write about their data or any other question. */
-  contactEmail: 'nzr.dev.contact@gmail.com',
+  contactEmail: 'contact@example.com',
   /** Name of the site. */
   siteName: 'DiceRoulette',
   /** Last time the legal texts were reviewed (ISO date). */
