@@ -247,5 +247,26 @@
       "accountSize": "Maksymalny rozmiar na konto",
       "hours": "{n} godz."
     }
+  },
+  "account": {
+    "title": "Konto",
+    "intro": "Zaloguj się, aby mieć bibliotekę na wszystkich urządzeniach. To opcjonalne: wszystko działa też bez konta.",
+    "signIn": "Zaloguj się przez Google",
+    "signOut": "Wyloguj się",
+    "signedInAs": "Zalogowano jako {name}",
+    "syncNow": "Synchronizuj teraz",
+    "syncing": "Synchronizacja…",
+    "synced": "Zsynchronizowano o {time}",
+    "syncFailed": "Nie udało się zsynchronizować. Spróbuję ponownie.",
+    "offline": "Brak połączenia. Zmiany zsynchronizują się po powrocie online.",
+    "conflictName": "{name} (kopia konfliktu)",
+    "conflictCopies": "Niektóre stoły zmieniono na dwóch urządzeniach. Twoja wersja została zachowana jako kopia.",
+    "rejected": "Niektórych stołów nie udało się wysłać (za duże lub brak miejsca). Zostają na tym urządzeniu.",
+    "otherAccount": "To urządzenie ma stoły z innego konta. Wysłać je na to konto?",
+    "adopt": "Wyślij",
+    "deleteAccount": "Usuń konto",
+    "deleteConfirm": "Usunąć konto i wszystkie stoły w chmurze? Stoły na tym urządzeniu zostaną. Tego nie można cofnąć.",
+    "deleted": "Konto usunięte",
+    "deleteFailed": "Nie udało się usunąć konta. Zaloguj się ponownie i spróbuj jeszcze raz."
   }
 }

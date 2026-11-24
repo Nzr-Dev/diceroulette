@@ -247,5 +247,26 @@
       "accountSize": "Tamanho máximo por conta",
       "hours": "{n} horas"
     }
+  },
+  "account": {
+    "title": "Conta",
+    "intro": "Entre para ter sua biblioteca em todos os seus dispositivos. É opcional: tudo funciona sem conta.",
+    "signIn": "Entrar com o Google",
+    "signOut": "Sair",
+    "signedInAs": "Conectado como {name}",
+    "syncNow": "Sincronizar agora",
+    "syncing": "Sincronizando…",
+    "synced": "Sincronizado às {time}",
+    "syncFailed": "Não foi possível sincronizar. Vamos tentar de novo.",
+    "offline": "Você está offline. As alterações serão sincronizadas quando voltar a ficar online.",
+    "conflictName": "{name} (cópia de conflito)",
+    "conflictCopies": "Algumas mesas foram alteradas em dois dispositivos. Sua versão foi mantida como cópia.",
+    "rejected": "Algumas mesas não puderam ser enviadas (grandes demais ou armazenamento cheio). Elas ficam neste dispositivo.",
+    "otherAccount": "Este dispositivo tem mesas de outra conta. Enviá-las para esta conta?",
+    "adopt": "Enviar",
+    "deleteAccount": "Excluir conta",
+    "deleteConfirm": "Excluir sua conta e todas as suas mesas na nuvem? As mesas deste dispositivo são mantidas. Isso não pode ser desfeito.",
+    "deleted": "Conta excluída",
+    "deleteFailed": "Não foi possível excluir a conta. Entre de novo e tente outra vez."
   }
 }

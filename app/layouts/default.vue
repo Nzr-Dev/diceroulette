@@ -1,6 +1,9 @@
 <script setup lang="ts">
 const { t } = useI18n()
 
+// Automatic sync with the account (does nothing if there is no account). Only in the browser.
+onMounted(() => useSync().start())
+
 useHead({
   titleTemplate: (title) => (title ? `${title} · DiceRoulette` : 'DiceRoulette'),
 })

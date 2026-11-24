@@ -10,6 +10,15 @@ export interface TableMeta {
   dirty: boolean
 }
 
+/** Where this device is in the sync with the account. Only one row, key 'sync'. */
+export interface SyncStateRow {
+  key: 'sync'
+  /** Account this device last synced with. */
+  userId: string
+  /** Highest server revision seen. */
+  cursor: number
+}
+
 export type HistoryRow = HistoryEntry & { id: number }
 export interface SettingsRow {
   key: 'settings'
@@ -23,6 +32,7 @@ export class DiceRouletteDb extends Dexie {
   tableMeta!: EntityTable<TableMeta, 'id'>
   history!: EntityTable<HistoryRow, 'id'>
   settings!: EntityTable<SettingsRow, 'key'>
+  syncState!: EntityTable<SyncStateRow, 'key'>
 
   constructor(name = 'diceroulette') {
     super(name)
@@ -31,6 +41,14 @@ export class DiceRouletteDb extends Dexie {
       tableMeta: 'id',
       history: '++id, [tableId+id]',
       settings: 'key',
+    })
+    // Version 2: sync state (cursor of the account). Existing data is untouched.
+    this.version(2).stores({
+      gameTables: 'id, updatedAt, deletedAt',
+      tableMeta: 'id',
+      history: '++id, [tableId+id]',
+      settings: 'key',
+      syncState: 'key',
     })
   }
 }

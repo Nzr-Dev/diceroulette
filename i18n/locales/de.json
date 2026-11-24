@@ -247,5 +247,26 @@
       "accountSize": "Maximale Größe pro Konto",
       "hours": "{n} Stunden"
     }
+  },
+  "account": {
+    "title": "Konto",
+    "intro": "Melde dich an, um deine Bibliothek auf allen Geräten zu haben. Das ist freiwillig: Alles funktioniert auch ohne Konto.",
+    "signIn": "Mit Google anmelden",
+    "signOut": "Abmelden",
+    "signedInAs": "Angemeldet als {name}",
+    "syncNow": "Jetzt synchronisieren",
+    "syncing": "Synchronisiere…",
+    "synced": "Synchronisiert um {time}",
+    "syncFailed": "Synchronisieren nicht möglich. Es wird erneut versucht.",
+    "offline": "Du bist offline. Änderungen werden synchronisiert, sobald du wieder online bist.",
+    "conflictName": "{name} (Konfliktkopie)",
+    "conflictCopies": "Einige Tische wurden auf zwei Geräten geändert. Deine Version wurde als Kopie behalten.",
+    "rejected": "Einige Tische konnten nicht hochgeladen werden (zu groß oder Speicher voll). Sie bleiben auf diesem Gerät.",
+    "otherAccount": "Dieses Gerät hat Tische eines anderen Kontos. In dieses Konto hochladen?",
+    "adopt": "Hochladen",
+    "deleteAccount": "Konto löschen",
+    "deleteConfirm": "Dein Konto und alle deine Tische in der Cloud löschen? Die Tische auf diesem Gerät bleiben erhalten. Das kann nicht rückgängig gemacht werden.",
+    "deleted": "Konto gelöscht",
+    "deleteFailed": "Das Konto konnte nicht gelöscht werden. Melde dich erneut an und versuche es noch einmal."
   }
 }

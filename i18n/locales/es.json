@@ -247,5 +247,26 @@
       "accountSize": "Tamaño máximo por cuenta",
       "hours": "{n} horas"
     }
+  },
+  "account": {
+    "title": "Cuenta",
+    "intro": "Inicia sesión para tener tu biblioteca en todos tus dispositivos. Es opcional: todo funciona sin cuenta.",
+    "signIn": "Iniciar sesión con Google",
+    "signOut": "Cerrar sesión",
+    "signedInAs": "Sesión iniciada como {name}",
+    "syncNow": "Sincronizar ahora",
+    "syncing": "Sincronizando…",
+    "synced": "Sincronizado a las {time}",
+    "syncFailed": "No se pudo sincronizar. Se volverá a intentar.",
+    "offline": "Sin conexión. Los cambios se sincronizarán al volver a estar en línea.",
+    "conflictName": "{name} (copia por conflicto)",
+    "conflictCopies": "Algunas mesas se cambiaron en dos dispositivos. Tu versión se guardó como copia.",
+    "rejected": "Algunas mesas no se pudieron subir (demasiado grandes o almacenamiento lleno). Se quedan en este dispositivo.",
+    "otherAccount": "Este dispositivo tiene mesas de otra cuenta. ¿Subirlas a esta cuenta?",
+    "adopt": "Subirlas",
+    "deleteAccount": "Eliminar cuenta",
+    "deleteConfirm": "¿Eliminar tu cuenta y todas tus mesas de la nube? Las mesas de este dispositivo se conservan. No se puede deshacer.",
+    "deleted": "Cuenta eliminada",
+    "deleteFailed": "No se pudo eliminar la cuenta. Inicia sesión de nuevo e inténtalo otra vez."
   }
 }

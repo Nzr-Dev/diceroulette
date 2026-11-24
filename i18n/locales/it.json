@@ -247,5 +247,26 @@
       "accountSize": "Dimensione massima per account",
       "hours": "{n} ore"
     }
+  },
+  "account": {
+    "title": "Account",
+    "intro": "Accedi per avere la tua libreria su tutti i dispositivi. È facoltativo: tutto funziona anche senza account.",
+    "signIn": "Accedi con Google",
+    "signOut": "Esci",
+    "signedInAs": "Accesso come {name}",
+    "syncNow": "Sincronizza ora",
+    "syncing": "Sincronizzazione…",
+    "synced": "Sincronizzato alle {time}",
+    "syncFailed": "Impossibile sincronizzare. Riproverà.",
+    "offline": "Sei offline. Le modifiche si sincronizzeranno quando tornerai online.",
+    "conflictName": "{name} (copia per conflitto)",
+    "conflictCopies": "Alcuni tavoli sono stati modificati su due dispositivi. La tua versione è stata conservata come copia.",
+    "rejected": "Alcuni tavoli non sono stati caricati (troppo grandi o spazio esaurito). Restano su questo dispositivo.",
+    "otherAccount": "Questo dispositivo ha tavoli di un altro account. Caricarli su questo account?",
+    "adopt": "Caricali",
+    "deleteAccount": "Elimina account",
+    "deleteConfirm": "Eliminare il tuo account e tutti i tuoi tavoli nel cloud? I tavoli su questo dispositivo restano. Non si può annullare.",
+    "deleted": "Account eliminato",
+    "deleteFailed": "Impossibile eliminare l'account. Accedi di nuovo e riprova."
   }
 }

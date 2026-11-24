@@ -54,7 +54,8 @@ export default defineNuxtConfig({
           warnings: [],
         }),
       ],
-      navigateFallbackDenylist: [/^\/_nuxt\//, /^\/_i18n\//, /\.\w+$/],
+      // /api/ must reach the server: Google sends the person back to /api/auth/callback/google.
+      navigateFallbackDenylist: [/^\/api\//, /^\/_nuxt\//, /^\/_i18n\//, /\.\w+$/],
       // The module already adds Nuxt's own build files; the translations are added here.
       globPatterns: ['**/*.{js,css,html,svg,png,ico,woff2}', '_i18n/**/*.json'],
       cleanupOutdatedCaches: true,
@@ -64,12 +65,15 @@ export default defineNuxtConfig({
   },
 
   // The `shared/` folder is also used by the server later, so it keeps no Vue code.
+  // Public address of the site (no final slash). Set NUXT_PUBLIC_SITE_URL in Vercel; used for links in search engines.
+  runtimeConfig: { public: { siteUrl: process.env.NUXT_PUBLIC_SITE_URL ?? 'http://localhost:3000' } },
+
   i18n: {
+    baseUrl: process.env.NUXT_PUBLIC_SITE_URL ?? 'http://localhost:3000',
     defaultLocale: 'en',
     strategy: 'prefix_except_default',
     langDir: 'locales',
     vueI18n: 'i18n.config.ts',
-    lazy: true,
     locales: [
       { code: 'en', language: 'en-US', name: 'English', file: 'en.json' },
       { code: 'es', language: 'es-ES', name: 'Español', file: 'es.json' },
@@ -90,5 +94,9 @@ export default defineNuxtConfig({
       redirectOn: 'root',
       fallbackLocale: 'en',
     },
+  },
+
+  vite: {
+    optimizeDeps: { include: ['better-auth/vue', 'dexie', 'zod'] },
   },
 })

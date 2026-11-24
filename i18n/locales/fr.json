@@ -247,5 +247,26 @@
       "accountSize": "Taille maximale par compte",
       "hours": "{n} heures"
     }
+  },
+  "account": {
+    "title": "Compte",
+    "intro": "Connectez-vous pour retrouver votre bibliothèque sur tous vos appareils. C'est facultatif : tout fonctionne sans compte.",
+    "signIn": "Se connecter avec Google",
+    "signOut": "Se déconnecter",
+    "signedInAs": "Connecté en tant que {name}",
+    "syncNow": "Synchroniser maintenant",
+    "syncing": "Synchronisation…",
+    "synced": "Synchronisé à {time}",
+    "syncFailed": "Synchronisation impossible. Nouvelle tentative bientôt.",
+    "offline": "Vous êtes hors ligne. Les modifications seront synchronisées au retour de la connexion.",
+    "conflictName": "{name} (copie de conflit)",
+    "conflictCopies": "Certaines tables ont été modifiées sur deux appareils. Votre version a été conservée comme copie.",
+    "rejected": "Certaines tables n'ont pas pu être envoyées (trop volumineuses ou stockage plein). Elles restent sur cet appareil.",
+    "otherAccount": "Cet appareil contient des tables d'un autre compte. Les envoyer vers ce compte ?",
+    "adopt": "Les envoyer",
+    "deleteAccount": "Supprimer le compte",
+    "deleteConfirm": "Supprimer votre compte et toutes vos tables dans le cloud ? Les tables de cet appareil sont conservées. Cette action est irréversible.",
+    "deleted": "Compte supprimé",
+    "deleteFailed": "Impossible de supprimer le compte. Reconnectez-vous et réessayez."
   }
 }

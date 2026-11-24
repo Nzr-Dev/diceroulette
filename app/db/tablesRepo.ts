@@ -166,6 +166,20 @@ export async function markSynced(db: DiceRouletteDb, id: string, serverRevision:
   await db.tableMeta.put({ id, serverRevision, dirty: false })
 }
 
+/**
+ * Stores a table that came from the server exactly as it is (no new `updatedAt`) and marks it as synced.
+ * It is validated again: the server is trusted, but a bug or an old format must not break the local data.
+ */
+export async function applyRemoteTable(db: DiceRouletteDb, table: unknown, serverRevision: number): Promise<SaveResult> {
+  const parsed = parseTable(table)
+  if (!parsed.success) return { ok: false, error: parsed.error }
+  await db.transaction('rw', db.gameTables, db.tableMeta, async () => {
+    await db.gameTables.put(parsed.data)
+    await db.tableMeta.put({ id: parsed.data.id, serverRevision, dirty: false })
+  })
+  return { ok: true, table: parsed.data }
+}
+
 /** Tables with changes that were not uploaded yet. */
 export async function listDirtyTableIds(db: DiceRouletteDb): Promise<string[]> {
   return (await db.tableMeta.filter((m) => m.dirty).primaryKeys()) as string[]

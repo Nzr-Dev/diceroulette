@@ -102,6 +102,8 @@ const trashOpen = ref(false)
         <input ref="fileInput" type="file" accept=".json,application/json" class="hidden" @change="onFile" />
       </div>
 
+      <AccountPanel />
+
       <div v-if="library.tables.length === 0" class="text-center text-muted py-12 space-y-3">
         <UIcon name="i-lucide-library" class="size-10 mx-auto" />
         <p>{{ t('library.empty') }}</p>

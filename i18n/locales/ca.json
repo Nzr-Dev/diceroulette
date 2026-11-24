@@ -247,5 +247,26 @@
       "accountSize": "Mida màxima per compte",
       "hours": "{n} hores"
     }
+  },
+  "account": {
+    "title": "Compte",
+    "intro": "Inicia la sessió per tenir la biblioteca a tots els teus dispositius. És opcional: tot funciona sense compte.",
+    "signIn": "Inicia la sessió amb Google",
+    "signOut": "Tanca la sessió",
+    "signedInAs": "Sessió iniciada com a {name}",
+    "syncNow": "Sincronitza ara",
+    "syncing": "Sincronitzant…",
+    "synced": "Sincronitzat a les {time}",
+    "syncFailed": "No s'ha pogut sincronitzar. Es tornarà a intentar.",
+    "offline": "Sense connexió. Els canvis es sincronitzaran en tornar a estar en línia.",
+    "conflictName": "{name} (còpia per conflicte)",
+    "conflictCopies": "Algunes taules s'han canviat en dos dispositius. La teva versió s'ha desat com a còpia.",
+    "rejected": "Algunes taules no s'han pogut pujar (massa grans o emmagatzematge ple). Es queden en aquest dispositiu.",
+    "otherAccount": "Aquest dispositiu té taules d'un altre compte. Vols pujar-les a aquest compte?",
+    "adopt": "Puja-les",
+    "deleteAccount": "Elimina el compte",
+    "deleteConfirm": "Vols eliminar el teu compte i totes les teves taules del núvol? Les taules d'aquest dispositiu es conserven. No es pot desfer.",
+    "deleted": "Compte eliminat",
+    "deleteFailed": "No s'ha pogut eliminar el compte. Inicia la sessió de nou i torna-ho a provar."
   }
 }

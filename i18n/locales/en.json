@@ -247,5 +247,26 @@
       "accountSize": "Maximum size per account",
       "hours": "{n} hours"
     }
+  },
+  "account": {
+    "title": "Account",
+    "intro": "Sign in to keep your library on all your devices. It is optional: everything works without an account.",
+    "signIn": "Sign in with Google",
+    "signOut": "Sign out",
+    "signedInAs": "Signed in as {name}",
+    "syncNow": "Sync now",
+    "syncing": "Syncing…",
+    "synced": "Synced at {time}",
+    "syncFailed": "Could not sync. It will try again.",
+    "offline": "You are offline. Changes will sync when you are back online.",
+    "conflictName": "{name} (conflict copy)",
+    "conflictCopies": "Some tables were changed on two devices. Your version was kept as a copy.",
+    "rejected": "Some tables could not be uploaded (too big, or your storage is full). They stay on this device.",
+    "otherAccount": "This device has tables from another account. Upload them to this account?",
+    "adopt": "Upload them",
+    "deleteAccount": "Delete account",
+    "deleteConfirm": "Delete your account and all your tables in the cloud? The tables on this device are kept. This cannot be undone.",
+    "deleted": "Account deleted",
+    "deleteFailed": "Could not delete the account. Sign in again and retry."
   }
 }
