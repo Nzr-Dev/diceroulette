@@ -1,7 +1,9 @@
 {
   "footer": {
     "tagline": "Dice, wheels, counters and timers for your games",
-    "help": "Help"
+    "help": "Help",
+    "privacy": "Privacy",
+    "terms": "Terms"
   },
   "header": {
     "language": "Language",
@@ -268,5 +270,9 @@
     "deleteConfirm": "Delete your account and all your tables in the cloud? The tables on this device are kept. This cannot be undone.",
     "deleted": "Account deleted",
     "deleteFailed": "Could not delete the account. Sign in again and retry."
+  },
+  "legal": {
+    "updated": "Last updated: {date}",
+    "onlyEnglishSpanish": "The legal text is available in English and Spanish."
   }
 }

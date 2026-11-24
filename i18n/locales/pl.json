@@ -1,7 +1,9 @@
 {
   "footer": {
     "tagline": "Kości, koła losowania, liczniki i timery do Twoich gier",
-    "help": "Pomoc"
+    "help": "Pomoc",
+    "privacy": "Prywatność",
+    "terms": "Warunki"
   },
   "header": {
     "language": "Język",
@@ -268,5 +270,9 @@
     "deleteConfirm": "Usunąć konto i wszystkie stoły w chmurze? Stoły na tym urządzeniu zostaną. Tego nie można cofnąć.",
     "deleted": "Konto usunięte",
     "deleteFailed": "Nie udało się usunąć konta. Zaloguj się ponownie i spróbuj jeszcze raz."
+  },
+  "legal": {
+    "updated": "Ostatnia aktualizacja: {date}",
+    "onlyEnglishSpanish": "Tekst prawny jest dostępny po angielsku i hiszpańsku."
   }
 }

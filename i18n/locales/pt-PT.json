@@ -1,7 +1,9 @@
 {
   "footer": {
     "tagline": "Dados, roletas, contadores e temporizadores para os seus jogos",
-    "help": "Ajuda"
+    "help": "Ajuda",
+    "privacy": "Privacidade",
+    "terms": "Condições"
   },
   "header": {
     "language": "Idioma",
@@ -268,5 +270,9 @@
     "deleteConfirm": "Eliminar a tua conta e todas as tuas mesas na nuvem? As mesas deste dispositivo são mantidas. Não é possível anular.",
     "deleted": "Conta eliminada",
     "deleteFailed": "Não foi possível eliminar a conta. Inicia sessão de novo e tenta outra vez."
+  },
+  "legal": {
+    "updated": "Última revisão: {date}",
+    "onlyEnglishSpanish": "O texto legal está disponível em inglês e espanhol."
   }
 }

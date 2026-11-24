@@ -1,7 +1,9 @@
 {
   "footer": {
     "tagline": "Daus, ruletes, comptadors i temporitzadors per als teus jocs",
-    "help": "Ajuda"
+    "help": "Ajuda",
+    "privacy": "Privacitat",
+    "terms": "Condicions"
   },
   "header": {
     "language": "Idioma",
@@ -268,5 +270,9 @@
     "deleteConfirm": "Vols eliminar el teu compte i totes les teves taules del núvol? Les taules d'aquest dispositiu es conserven. No es pot desfer.",
     "deleted": "Compte eliminat",
     "deleteFailed": "No s'ha pogut eliminar el compte. Inicia la sessió de nou i torna-ho a provar."
+  },
+  "legal": {
+    "updated": "Darrera revisió: {date}",
+    "onlyEnglishSpanish": "El text legal està disponible en anglès i castellà."
   }
 }

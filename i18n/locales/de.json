@@ -1,7 +1,9 @@
 {
   "footer": {
     "tagline": "Würfel, Glücksräder, Zähler und Timer für deine Spiele",
-    "help": "Hilfe"
+    "help": "Hilfe",
+    "privacy": "Datenschutz",
+    "terms": "Nutzungsbedingungen"
   },
   "header": {
     "language": "Sprache",
@@ -268,5 +270,9 @@
     "deleteConfirm": "Dein Konto und alle deine Tische in der Cloud löschen? Die Tische auf diesem Gerät bleiben erhalten. Das kann nicht rückgängig gemacht werden.",
     "deleted": "Konto gelöscht",
     "deleteFailed": "Das Konto konnte nicht gelöscht werden. Melde dich erneut an und versuche es noch einmal."
+  },
+  "legal": {
+    "updated": "Zuletzt geprüft: {date}",
+    "onlyEnglishSpanish": "Der Rechtstext ist auf Englisch und Spanisch verfügbar."
   }
 }

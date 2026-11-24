@@ -1,7 +1,9 @@
 {
   "footer": {
     "tagline": "Dados, ruletas, contadores y temporizadores para tus juegos",
-    "help": "Ayuda"
+    "help": "Ayuda",
+    "privacy": "Privacidad",
+    "terms": "Condiciones"
   },
   "header": {
     "language": "Idioma",
@@ -268,5 +270,9 @@
     "deleteConfirm": "¿Eliminar tu cuenta y todas tus mesas de la nube? Las mesas de este dispositivo se conservan. No se puede deshacer.",
     "deleted": "Cuenta eliminada",
     "deleteFailed": "No se pudo eliminar la cuenta. Inicia sesión de nuevo e inténtalo otra vez."
+  },
+  "legal": {
+    "updated": "Última revisión: {date}",
+    "onlyEnglishSpanish": "El texto legal está disponible en inglés y español."
   }
 }

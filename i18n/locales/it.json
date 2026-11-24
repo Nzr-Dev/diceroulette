@@ -1,7 +1,9 @@
 {
   "footer": {
     "tagline": "Dadi, ruote, contatori e timer per i tuoi giochi",
-    "help": "Aiuto"
+    "help": "Aiuto",
+    "privacy": "Privacy",
+    "terms": "Condizioni"
   },
   "header": {
     "language": "Lingua",
@@ -268,5 +270,9 @@
     "deleteConfirm": "Eliminare il tuo account e tutti i tuoi tavoli nel cloud? I tavoli su questo dispositivo restano. Non si può annullare.",
     "deleted": "Account eliminato",
     "deleteFailed": "Impossibile eliminare l'account. Accedi di nuovo e riprova."
+  },
+  "legal": {
+    "updated": "Ultima revisione: {date}",
+    "onlyEnglishSpanish": "Il testo legale è disponibile in inglese e spagnolo."
   }
 }

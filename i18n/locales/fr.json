@@ -1,7 +1,9 @@
 {
   "footer": {
     "tagline": "Dés, roues, compteurs et minuteurs pour vos jeux",
-    "help": "Aide"
+    "help": "Aide",
+    "privacy": "Confidentialité",
+    "terms": "Conditions"
   },
   "header": {
     "language": "Langue",
@@ -268,5 +270,9 @@
     "deleteConfirm": "Supprimer votre compte et toutes vos tables dans le cloud ? Les tables de cet appareil sont conservées. Cette action est irréversible.",
     "deleted": "Compte supprimé",
     "deleteFailed": "Impossible de supprimer le compte. Reconnectez-vous et réessayez."
+  },
+  "legal": {
+    "updated": "Dernière révision : {date}",
+    "onlyEnglishSpanish": "Le texte juridique est disponible en anglais et en espagnol."
   }
 }
